@@ -1,3 +1,3 @@
 # ML_Group_Assignment_UCL
 
-Code and Reprot for the Group Assignment.
+Code and Report for the Group Assignment of COMP0036.
