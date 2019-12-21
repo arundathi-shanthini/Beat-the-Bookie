@@ -1,0 +1,4181 @@
+HomeTeam,AwayTeam,FTR
+Arsenal,West Brom,H
+Bolton,Stoke,H
+Everton,Blackburn,A
+Hull,Fulham,H
+Middlesbrough,Tottenham,H
+Sunderland,Liverpool,A
+West Ham,Wigan,H
+Aston Villa,Man City,H
+Chelsea,Portsmouth,H
+Man United,Newcastle,D
+Blackburn,Hull,D
+Fulham,Arsenal,H
+Liverpool,Middlesbrough,H
+Newcastle,Bolton,H
+Stoke,Aston Villa,H
+Tottenham,Sunderland,A
+West Brom,Everton,A
+Man City,West Ham,H
+Wigan,Chelsea,A
+Portsmouth,Man United,A
+Arsenal,Newcastle,H
+Bolton,West Brom,D
+Everton,Portsmouth,A
+Hull,Wigan,A
+Middlesbrough,Stoke,H
+West Ham,Blackburn,H
+Aston Villa,Liverpool,D
+Chelsea,Tottenham,D
+Sunderland,Man City,A
+Blackburn,Arsenal,A
+Fulham,Bolton,H
+Liverpool,Man United,H
+Man City,Chelsea,A
+Newcastle,Hull,A
+Portsmouth,Middlesbrough,H
+West Brom,West Ham,H
+Wigan,Sunderland,D
+Stoke,Everton,A
+Tottenham,Aston Villa,A
+Blackburn,Fulham,H
+Bolton,Arsenal,A
+Liverpool,Stoke,D
+Sunderland,Middlesbrough,H
+West Ham,Newcastle,H
+Chelsea,Man United,D
+Hull,Everton,D
+Man City,Portsmouth,H
+Tottenham,Wigan,D
+West Brom,Aston Villa,A
+Arsenal,Hull,A
+Aston Villa,Sunderland,H
+Everton,Liverpool,A
+Fulham,West Ham,A
+Man United,Bolton,H
+Middlesbrough,West Brom,A
+Newcastle,Blackburn,A
+Stoke,Chelsea,A
+Portsmouth,Tottenham,H
+Wigan,Man City,H
+Blackburn,Man United,A
+Sunderland,Arsenal,D
+West Brom,Fulham,H
+Wigan,Middlesbrough,A
+Chelsea,Aston Villa,H
+Everton,Newcastle,D
+Man City,Liverpool,A
+Portsmouth,Stoke,H
+Tottenham,Hull,A
+West Ham,Bolton,A
+Arsenal,Everton,H
+Aston Villa,Portsmouth,D
+Bolton,Blackburn,D
+Fulham,Sunderland,D
+Liverpool,Wigan,H
+Man United,West Brom,H
+Middlesbrough,Chelsea,A
+Hull,West Ham,H
+Stoke,Tottenham,H
+Newcastle,Man City,D
+Blackburn,Middlesbrough,D
+Everton,Man United,D
+Sunderland,Newcastle,H
+West Brom,Hull,A
+Chelsea,Liverpool,A
+Man City,Stoke,H
+Portsmouth,Fulham,D
+Tottenham,Bolton,H
+West Ham,Arsenal,A
+Wigan,Aston Villa,A
+Newcastle,West Brom,H
+Arsenal,Tottenham,D
+Aston Villa,Blackburn,H
+Bolton,Everton,A
+Fulham,Wigan,H
+Hull,Chelsea,A
+Liverpool,Portsmouth,H
+Man United,West Ham,H
+Middlesbrough,Man City,H
+Stoke,Sunderland,H
+Chelsea,Sunderland,H
+Everton,Fulham,H
+Man United,Hull,H
+Middlesbrough,West Ham,D
+Portsmouth,Wigan,A
+Stoke,Arsenal,H
+Tottenham,Liverpool,H
+West Brom,Blackburn,D
+Bolton,Man City,H
+Newcastle,Aston Villa,H
+Arsenal,Man United,H
+Hull,Bolton,A
+Liverpool,West Brom,H
+Sunderland,Portsmouth,A
+West Ham,Everton,A
+Wigan,Stoke,D
+Aston Villa,Middlesbrough,A
+Blackburn,Chelsea,A
+Fulham,Newcastle,H
+Man City,Tottenham,A
+Arsenal,Aston Villa,A
+Blackburn,Sunderland,A
+Bolton,Liverpool,A
+Fulham,Tottenham,H
+Man United,Stoke,H
+Newcastle,Wigan,D
+West Brom,Chelsea,A
+West Ham,Portsmouth,D
+Everton,Middlesbrough,D
+Hull,Man City,D
+Aston Villa,Man United,D
+Chelsea,Newcastle,D
+Liverpool,Fulham,D
+Man City,Arsenal,H
+Middlesbrough,Bolton,A
+Portsmouth,Hull,D
+Stoke,West Brom,H
+Sunderland,West Ham,A
+Tottenham,Blackburn,H
+Wigan,Everton,H
+Aston Villa,Fulham,D
+Middlesbrough,Newcastle,D
+Stoke,Hull,D
+Sunderland,Bolton,A
+Wigan,West Brom,H
+Chelsea,Arsenal,A
+Man City,Man United,A
+Portsmouth,Blackburn,H
+Tottenham,Everton,A
+Liverpool,West Ham,D
+Arsenal,Wigan,H
+Blackburn,Liverpool,A
+Bolton,Chelsea,A
+Fulham,Man City,D
+Hull,Middlesbrough,H
+Man United,Sunderland,H
+Newcastle,Stoke,D
+Everton,Aston Villa,A
+West Brom,Portsmouth,D
+West Ham,Tottenham,A
+Aston Villa,Bolton,H
+Liverpool,Hull,D
+Man City,Everton,A
+Middlesbrough,Arsenal,D
+Stoke,Fulham,D
+Sunderland,West Brom,H
+Tottenham,Man United,D
+Wigan,Blackburn,H
+Chelsea,West Ham,D
+Portsmouth,Newcastle,A
+Blackburn,Stoke,H
+Bolton,Portsmouth,H
+Fulham,Middlesbrough,H
+Hull,Sunderland,A
+West Ham,Aston Villa,A
+Arsenal,Liverpool,D
+Newcastle,Tottenham,H
+West Brom,Man City,H
+Everton,Chelsea,D
+Aston Villa,Arsenal,D
+Chelsea,West Brom,H
+Liverpool,Bolton,H
+Man City,Hull,H
+Middlesbrough,Everton,A
+Portsmouth,West Ham,A
+Stoke,Man United,A
+Sunderland,Blackburn,D
+Tottenham,Fulham,D
+Wigan,Newcastle,H
+Arsenal,Portsmouth,H
+Blackburn,Man City,D
+Bolton,Wigan,A
+Everton,Sunderland,H
+Fulham,Chelsea,D
+Newcastle,Liverpool,A
+West Brom,Tottenham,H
+West Ham,Stoke,H
+Man United,Middlesbrough,H
+Hull,Aston Villa,A
+Arsenal,Bolton,H
+Aston Villa,West Brom,H
+Everton,Hull,H
+Middlesbrough,Sunderland,D
+Newcastle,West Ham,D
+Stoke,Liverpool,D
+Man United,Chelsea,H
+Wigan,Tottenham,H
+Man United,Wigan,H
+Blackburn,Newcastle,H
+Bolton,Man United,A
+Chelsea,Stoke,H
+Hull,Arsenal,A
+Man City,Wigan,H
+Sunderland,Aston Villa,A
+West Brom,Middlesbrough,H
+Tottenham,Portsmouth,D
+West Ham,Fulham,H
+Liverpool,Everton,D
+Portsmouth,Aston Villa,A
+Sunderland,Fulham,H
+Tottenham,Stoke,H
+West Brom,Man United,A
+Blackburn,Bolton,D
+Chelsea,Middlesbrough,H
+Everton,Arsenal,D
+Man City,Newcastle,H
+West Ham,Hull,H
+Wigan,Liverpool,D
+Arsenal,West Ham,D
+Aston Villa,Wigan,D
+Bolton,Tottenham,H
+Fulham,Portsmouth,H
+Hull,West Brom,D
+Man United,Everton,H
+Middlesbrough,Blackburn,D
+Stoke,Man City,H
+Liverpool,Chelsea,H
+Newcastle,Sunderland,D
+Blackburn,Aston Villa,A
+Chelsea,Hull,D
+Everton,Bolton,H
+Man City,Middlesbrough,H
+Portsmouth,Liverpool,A
+Sunderland,Stoke,H
+West Brom,Newcastle,A
+Wigan,Fulham,D
+Tottenham,Arsenal,D
+West Ham,Man United,A
+Portsmouth,Man City,H
+Man United,Fulham,H
+Arsenal,Sunderland,D
+Aston Villa,Chelsea,A
+Bolton,West Ham,H
+Man United,Blackburn,H
+Middlesbrough,Wigan,D
+Stoke,Portsmouth,D
+Fulham,West Brom,H
+Liverpool,Man City,D
+Newcastle,Everton,D
+Hull,Tottenham,A
+Arsenal,Fulham,D
+Chelsea,Wigan,H
+Everton,West Brom,H
+Middlesbrough,Liverpool,H
+Aston Villa,Stoke,D
+Bolton,Newcastle,H
+Hull,Blackburn,A
+West Ham,Man City,H
+Liverpool,Sunderland,H
+Portsmouth,Chelsea,A
+West Brom,Arsenal,A
+Blackburn,Everton,D
+Fulham,Hull,A
+Man City,Aston Villa,H
+Newcastle,Man United,A
+Stoke,Bolton,H
+Tottenham,Middlesbrough,H
+Wigan,West Ham,A
+Sunderland,Tottenham,D
+Fulham,Blackburn,A
+Arsenal,Blackburn,H
+Bolton,Fulham,A
+Everton,Stoke,H
+Hull,Newcastle,D
+Man United,Liverpool,A
+Middlesbrough,Portsmouth,D
+Sunderland,Wigan,A
+Aston Villa,Tottenham,A
+Chelsea,Man City,H
+West Ham,West Brom,D
+Blackburn,West Ham,D
+Fulham,Man United,H
+Newcastle,Arsenal,A
+Portsmouth,Everton,H
+Stoke,Middlesbrough,H
+Tottenham,Chelsea,H
+West Brom,Bolton,D
+Liverpool,Aston Villa,H
+Man City,Sunderland,H
+Wigan,Hull,H
+Arsenal,Man City,H
+Blackburn,Tottenham,H
+Bolton,Middlesbrough,H
+Fulham,Liverpool,A
+Hull,Portsmouth,D
+Newcastle,Chelsea,A
+West Brom,Stoke,A
+West Ham,Sunderland,H
+Everton,Wigan,H
+Man United,Aston Villa,H
+Chelsea,Bolton,H
+Liverpool,Blackburn,H
+Middlesbrough,Hull,H
+Portsmouth,West Brom,D
+Stoke,Newcastle,D
+Sunderland,Man United,A
+Tottenham,West Ham,H
+Wigan,Arsenal,A
+Aston Villa,Everton,D
+Man City,Fulham,A
+Aston Villa,West Ham,D
+Middlesbrough,Fulham,D
+Portsmouth,Bolton,H
+Stoke,Blackburn,H
+Sunderland,Hull,H
+Man City,West Brom,H
+Tottenham,Newcastle,H
+Liverpool,Arsenal,D
+Chelsea,Everton,D
+Man United,Portsmouth,H
+Bolton,Aston Villa,D
+Everton,Man City,A
+Fulham,Stoke,H
+Hull,Liverpool,A
+Man United,Tottenham,H
+West Brom,Sunderland,H
+West Ham,Chelsea,A
+Arsenal,Middlesbrough,H
+Blackburn,Wigan,H
+Newcastle,Portsmouth,D
+Chelsea,Fulham,H
+Man City,Blackburn,H
+Middlesbrough,Man United,A
+Portsmouth,Arsenal,A
+Stoke,West Ham,A
+Tottenham,West Brom,H
+Wigan,Bolton,D
+Liverpool,Newcastle,H
+Sunderland,Everton,A
+Aston Villa,Hull,H
+Blackburn,Portsmouth,H
+Bolton,Sunderland,D
+Everton,Tottenham,D
+Fulham,Aston Villa,H
+Hull,Stoke,A
+West Brom,Wigan,H
+West Ham,Liverpool,A
+Arsenal,Chelsea,A
+Man United,Man City,H
+Newcastle,Middlesbrough,H
+Wigan,Man United,A
+Bolton,Hull,D
+Everton,West Ham,H
+Man United,Arsenal,D
+Middlesbrough,Aston Villa,D
+Newcastle,Fulham,A
+Stoke,Wigan,H
+Tottenham,Man City,H
+Chelsea,Blackburn,H
+West Brom,Liverpool,A
+Portsmouth,Sunderland,H
+Arsenal,Stoke,H
+Aston Villa,Newcastle,H
+Blackburn,West Brom,D
+Fulham,Everton,A
+Hull,Man United,A
+Liverpool,Tottenham,H
+Man City,Bolton,H
+Sunderland,Chelsea,A
+West Ham,Middlesbrough,H
+Wigan,Portsmouth,H
+Aston Villa,Wigan,A
+Blackburn,Man City,A
+Bolton,Sunderland,A
+Chelsea,Hull,H
+Everton,Arsenal,A
+Portsmouth,Fulham,A
+Stoke,Burnley,H
+Wolves,West Ham,A
+Man United,Birmingham,H
+Tottenham,Liverpool,H
+Sunderland,Chelsea,A
+Wigan,Wolves,A
+Birmingham,Portsmouth,H
+Burnley,Man United,H
+Hull,Tottenham,A
+Liverpool,Stoke,H
+Arsenal,Portsmouth,H
+Birmingham,Stoke,D
+Hull,Bolton,H
+Man City,Wolves,H
+Sunderland,Blackburn,H
+Wigan,Man United,A
+Burnley,Everton,H
+Fulham,Chelsea,A
+West Ham,Tottenham,A
+Liverpool,Aston Villa,A
+Blackburn,West Ham,D
+Bolton,Liverpool,A
+Chelsea,Burnley,H
+Man United,Arsenal,H
+Stoke,Sunderland,H
+Tottenham,Birmingham,H
+Wolves,Hull,D
+Aston Villa,Fulham,H
+Everton,Wigan,H
+Portsmouth,Man City,A
+Blackburn,Wolves,H
+Liverpool,Burnley,H
+Man City,Arsenal,H
+Portsmouth,Bolton,A
+Stoke,Chelsea,A
+Sunderland,Hull,H
+Tottenham,Man United,A
+Wigan,West Ham,H
+Birmingham,Aston Villa,A
+Fulham,Everton,H
+Arsenal,Wigan,H
+Aston Villa,Portsmouth,H
+Bolton,Stoke,D
+Burnley,Sunderland,H
+Hull,Birmingham,A
+West Ham,Liverpool,A
+Chelsea,Tottenham,H
+Everton,Blackburn,H
+Man United,Man City,H
+Wolves,Fulham,H
+Birmingham,Bolton,A
+Blackburn,Aston Villa,H
+Fulham,Arsenal,A
+Liverpool,Hull,H
+Portsmouth,Everton,A
+Stoke,Man United,A
+Tottenham,Burnley,H
+Wigan,Chelsea,H
+Sunderland,Wolves,H
+Man City,West Ham,H
+Bolton,Tottenham,D
+Burnley,Birmingham,H
+Hull,Wigan,H
+Man United,Sunderland,D
+Wolves,Portsmouth,A
+Arsenal,Blackburn,H
+Chelsea,Liverpool,H
+Everton,Stoke,D
+West Ham,Fulham,D
+Aston Villa,Man City,D
+Arsenal,Birmingham,H
+Aston Villa,Chelsea,H
+Everton,Wolves,D
+Man United,Bolton,H
+Portsmouth,Tottenham,A
+Stoke,West Ham,H
+Sunderland,Liverpool,H
+Blackburn,Burnley,H
+Wigan,Man City,D
+Fulham,Hull,H
+Birmingham,Sunderland,H
+Burnley,Wigan,A
+Chelsea,Blackburn,H
+Hull,Portsmouth,D
+Tottenham,Stoke,A
+Wolves,Aston Villa,D
+Bolton,Everton,H
+Liverpool,Man United,H
+Man City,Fulham,D
+West Ham,Arsenal,D
+Arsenal,Tottenham,H
+Bolton,Chelsea,A
+Burnley,Hull,H
+Everton,Aston Villa,D
+Fulham,Liverpool,H
+Man United,Blackburn,H
+Portsmouth,Wigan,H
+Stoke,Wolves,D
+Sunderland,West Ham,D
+Birmingham,Man City,D
+West Ham,Aston Villa,H
+Aston Villa,Bolton,H
+Blackburn,Portsmouth,H
+Man City,Burnley,D
+Tottenham,Sunderland,H
+Wolves,Arsenal,A
+Chelsea,Man United,H
+Hull,Stoke,H
+West Ham,Everton,A
+Wigan,Fulham,D
+Liverpool,Birmingham,D
+Birmingham,Fulham,H
+Burnley,Aston Villa,D
+Chelsea,Wolves,H
+Hull,West Ham,D
+Liverpool,Man City,D
+Man United,Everton,H
+Sunderland,Arsenal,H
+Bolton,Blackburn,A
+Stoke,Portsmouth,H
+Tottenham,Wigan,H
+Fulham,Blackburn,H
+Hull,Everton,H
+Aston Villa,Tottenham,D
+Blackburn,Stoke,D
+Fulham,Bolton,D
+Man City,Hull,D
+Portsmouth,Man United,A
+West Ham,Burnley,H
+Wigan,Sunderland,H
+Arsenal,Chelsea,A
+Everton,Liverpool,A
+Wolves,Birmingham,A
+Arsenal,Stoke,H
+Aston Villa,Hull,H
+Blackburn,Liverpool,D
+Man City,Chelsea,H
+Portsmouth,Burnley,H
+West Ham,Man United,A
+Wigan,Birmingham,A
+Wolves,Bolton,H
+Everton,Tottenham,D
+Fulham,Sunderland,H
+Birmingham,West Ham,H
+Bolton,Man City,D
+Burnley,Fulham,D
+Chelsea,Everton,D
+Hull,Blackburn,D
+Man United,Aston Villa,A
+Stoke,Wigan,D
+Sunderland,Portsmouth,D
+Tottenham,Wolves,A
+Liverpool,Arsenal,A
+Birmingham,Blackburn,H
+Bolton,West Ham,H
+Man United,Wolves,H
+Sunderland,Aston Villa,A
+Burnley,Arsenal,D
+Chelsea,Portsmouth,H
+Liverpool,Wigan,H
+Tottenham,Man City,H
+Arsenal,Hull,H
+Aston Villa,Stoke,H
+Blackburn,Tottenham,A
+Fulham,Man United,H
+Man City,Sunderland,H
+Portsmouth,Liverpool,H
+Everton,Birmingham,D
+West Ham,Chelsea,D
+Wolves,Burnley,H
+Birmingham,Chelsea,D
+Burnley,Bolton,D
+Fulham,Tottenham,D
+Liverpool,Wolves,H
+Man City,Stoke,H
+Sunderland,Everton,D
+West Ham,Portsmouth,H
+Wigan,Blackburn,D
+Arsenal,Aston Villa,H
+Hull,Man United,A
+Blackburn,Sunderland,D
+Chelsea,Fulham,H
+Everton,Burnley,H
+Stoke,Birmingham,A
+Tottenham,West Ham,H
+Wolves,Man City,A
+Aston Villa,Liverpool,A
+Bolton,Hull,D
+Man United,Wigan,H
+Portsmouth,Arsenal,A
+Stoke,Fulham,H
+Arsenal,Everton,D
+Birmingham,Man United,D
+Man City,Blackburn,H
+Chelsea,Sunderland,H
+Everton,Man City,H
+Man United,Burnley,H
+Stoke,Liverpool,D
+Tottenham,Hull,D
+Wolves,Wigan,A
+Aston Villa,West Ham,D
+Blackburn,Fulham,H
+Bolton,Arsenal,A
+Arsenal,Bolton,H
+Liverpool,Tottenham,H
+Man United,Hull,H
+Bolton,Burnley,H
+Portsmouth,West Ham,D
+Tottenham,Fulham,H
+Wolves,Liverpool,D
+Aston Villa,Arsenal,D
+Blackburn,Wigan,H
+Chelsea,Birmingham,H
+Everton,Sunderland,H
+Birmingham,Tottenham,D
+Burnley,Chelsea,A
+Fulham,Aston Villa,A
+Hull,Wolves,D
+Liverpool,Bolton,H
+West Ham,Blackburn,D
+Wigan,Everton,A
+Arsenal,Man United,A
+Man City,Portsmouth,H
+Sunderland,Stoke,D
+Hull,Chelsea,D
+Fulham,Portsmouth,H
+Bolton,Fulham,D
+Burnley,West Ham,H
+Hull,Man City,H
+Liverpool,Everton,H
+Man United,Portsmouth,H
+Stoke,Blackburn,H
+Sunderland,Wigan,D
+Tottenham,Aston Villa,D
+Birmingham,Wolves,H
+Chelsea,Arsenal,H
+Fulham,Burnley,H
+Man City,Bolton,H
+Portsmouth,Sunderland,D
+Wigan,Stoke,D
+Arsenal,Liverpool,H
+Aston Villa,Man United,D
+Blackburn,Hull,H
+Everton,Chelsea,H
+West Ham,Birmingham,H
+Wolves,Tottenham,H
+Stoke,Man City,D
+Wigan,Bolton,D
+Arsenal,Sunderland,H
+Everton,Man United,H
+Portsmouth,Stoke,A
+West Ham,Hull,H
+Wolves,Chelsea,A
+Aston Villa,Burnley,H
+Blackburn,Bolton,H
+Fulham,Birmingham,H
+Man City,Liverpool,D
+Wigan,Tottenham,A
+Man United,West Ham,H
+Birmingham,Wigan,H
+Bolton,Wolves,H
+Burnley,Portsmouth,A
+Chelsea,Man City,A
+Stoke,Arsenal,A
+Liverpool,Blackburn,H
+Sunderland,Fulham,D
+Tottenham,Everton,H
+Arsenal,Burnley,H
+West Ham,Bolton,A
+Wolves,Man United,A
+Everton,Hull,H
+Wigan,Liverpool,H
+Portsmouth,Birmingham,A
+Sunderland,Bolton,H
+Burnley,Stoke,D
+Birmingham,Everton,D
+Bolton,Wigan,H
+Burnley,Wolves,A
+Chelsea,West Ham,H
+Hull,Arsenal,A
+Stoke,Aston Villa,D
+Tottenham,Blackburn,H
+Man United,Fulham,H
+Sunderland,Man City,D
+Liverpool,Portsmouth,H
+Wigan,Aston Villa,A
+Arsenal,West Ham,H
+Aston Villa,Wolves,D
+Everton,Bolton,H
+Portsmouth,Hull,H
+Stoke,Tottenham,A
+Sunderland,Birmingham,H
+Wigan,Burnley,H
+Blackburn,Chelsea,D
+Fulham,Man City,A
+Man United,Liverpool,H
+West Ham,Wolves,A
+Aston Villa,Sunderland,D
+Blackburn,Birmingham,H
+Man City,Everton,A
+Portsmouth,Chelsea,A
+Birmingham,Arsenal,D
+Bolton,Man United,A
+Chelsea,Aston Villa,H
+Hull,Fulham,H
+Tottenham,Portsmouth,H
+West Ham,Stoke,A
+Wolves,Everton,D
+Burnley,Blackburn,A
+Liverpool,Sunderland,H
+Man City,Wigan,H
+Arsenal,Wolves,H
+Bolton,Aston Villa,A
+Burnley,Man City,A
+Man United,Chelsea,A
+Portsmouth,Blackburn,D
+Stoke,Hull,H
+Sunderland,Tottenham,H
+Birmingham,Liverpool,D
+Everton,West Ham,D
+Fulham,Wigan,H
+Hull,Burnley,A
+West Ham,Sunderland,H
+Blackburn,Man United,D
+Liverpool,Fulham,D
+Man City,Birmingham,H
+Wolves,Stoke,D
+Chelsea,Bolton,H
+Aston Villa,Everton,D
+Tottenham,Arsenal,H
+Wigan,Portsmouth,D
+Birmingham,Hull,D
+Blackburn,Everton,A
+Fulham,Wolves,D
+Man City,Man United,A
+Stoke,Bolton,A
+Sunderland,Burnley,H
+Tottenham,Chelsea,H
+Portsmouth,Aston Villa,A
+Wigan,Arsenal,H
+Liverpool,West Ham,H
+Hull,Aston Villa,A
+Arsenal,Man City,D
+Bolton,Portsmouth,D
+Hull,Sunderland,A
+Man United,Tottenham,H
+West Ham,Wigan,H
+Wolves,Blackburn,D
+Aston Villa,Birmingham,H
+Burnley,Liverpool,A
+Chelsea,Stoke,H
+Everton,Fulham,H
+Birmingham,Burnley,H
+Man City,Aston Villa,H
+Portsmouth,Wolves,H
+Stoke,Everton,D
+Tottenham,Bolton,H
+Fulham,West Ham,H
+Liverpool,Chelsea,A
+Sunderland,Man United,A
+Blackburn,Arsenal,H
+Wigan,Hull,D
+Fulham,Stoke,A
+Man City,Tottenham,A
+Arsenal,Fulham,H
+Aston Villa,Blackburn,A
+Bolton,Birmingham,H
+Burnley,Tottenham,H
+Chelsea,Wigan,H
+Everton,Portsmouth,H
+Hull,Liverpool,D
+Man United,Stoke,H
+West Ham,Man City,D
+Wolves,Sunderland,H
+Aston Villa,West Ham,H
+Blackburn,Everton,H
+Bolton,Fulham,D
+Chelsea,West Brom,H
+Sunderland,Birmingham,D
+Tottenham,Man City,D
+Wigan,Blackpool,A
+Wolves,Stoke,H
+Liverpool,Arsenal,D
+Man United,Newcastle,H
+Arsenal,Blackpool,H
+Birmingham,Blackburn,H
+Everton,Wolves,D
+Stoke,Tottenham,A
+West Brom,Sunderland,H
+West Ham,Bolton,A
+Wigan,Chelsea,A
+Fulham,Man United,D
+Newcastle,Aston Villa,H
+Man City,Liverpool,H
+Blackburn,Arsenal,A
+Blackpool,Fulham,D
+Chelsea,Stoke,H
+Man United,West Ham,H
+Tottenham,Wigan,A
+Wolves,Newcastle,D
+Aston Villa,Everton,H
+Bolton,Birmingham,D
+Liverpool,West Brom,H
+Sunderland,Man City,H
+Arsenal,Bolton,H
+Everton,Man United,D
+Fulham,Wolves,H
+Man City,Blackburn,D
+Newcastle,Blackpool,A
+West Brom,Tottenham,D
+West Ham,Chelsea,A
+Wigan,Sunderland,D
+Birmingham,Liverpool,D
+Stoke,Aston Villa,H
+Aston Villa,Bolton,D
+Blackburn,Fulham,D
+Everton,Newcastle,A
+Stoke,West Ham,D
+Sunderland,Arsenal,D
+Tottenham,Wolves,H
+West Brom,Birmingham,H
+Chelsea,Blackpool,H
+Man United,Liverpool,H
+Wigan,Man City,A
+Arsenal,West Brom,A
+Birmingham,Wigan,D
+Blackpool,Blackburn,A
+Fulham,Everton,D
+Liverpool,Sunderland,D
+Man City,Chelsea,H
+West Ham,Tottenham,H
+Bolton,Man United,D
+Newcastle,Stoke,A
+Wolves,Aston Villa,A
+Birmingham,Everton,A
+Stoke,Blackburn,H
+Sunderland,Man United,D
+Tottenham,Aston Villa,H
+West Brom,Bolton,D
+West Ham,Fulham,D
+Wigan,Wolves,H
+Chelsea,Arsenal,H
+Liverpool,Blackpool,A
+Man City,Newcastle,H
+Arsenal,Birmingham,H
+Aston Villa,Chelsea,D
+Bolton,Stoke,H
+Fulham,Tottenham,A
+Man United,West Brom,D
+Newcastle,Wigan,D
+Wolves,West Ham,D
+Blackpool,Man City,A
+Everton,Liverpool,H
+Blackburn,Sunderland,D
+Birmingham,Blackpool,H
+Chelsea,Wolves,H
+Sunderland,Aston Villa,H
+Tottenham,Everton,D
+West Brom,Fulham,H
+West Ham,Newcastle,A
+Wigan,Bolton,D
+Liverpool,Blackburn,H
+Man City,Arsenal,A
+Stoke,Man United,A
+Arsenal,West Ham,H
+Blackburn,Chelsea,A
+Everton,Stoke,H
+Fulham,Wigan,H
+Man United,Tottenham,H
+Wolves,Man City,H
+Aston Villa,Birmingham,D
+Bolton,Liverpool,A
+Newcastle,Sunderland,H
+Blackpool,West Brom,H
+Birmingham,West Ham,D
+Blackburn,Wigan,H
+Blackpool,Everton,D
+Bolton,Tottenham,H
+Fulham,Aston Villa,D
+Man United,Wolves,H
+Sunderland,Stoke,H
+Arsenal,Newcastle,A
+Liverpool,Chelsea,H
+West Brom,Man City,A
+Stoke,Birmingham,H
+Tottenham,Sunderland,D
+Aston Villa,Blackpool,H
+Chelsea,Fulham,H
+Everton,Bolton,D
+Man City,Man United,D
+Newcastle,Blackburn,A
+West Ham,West Brom,D
+Wigan,Liverpool,D
+Wolves,Arsenal,A
+Aston Villa,Man United,D
+Man City,Birmingham,D
+Newcastle,Fulham,D
+Stoke,Liverpool,H
+Tottenham,Blackburn,H
+West Ham,Blackpool,D
+Wigan,West Brom,H
+Wolves,Bolton,A
+Chelsea,Sunderland,A
+Everton,Arsenal,A
+Arsenal,Tottenham,A
+Birmingham,Chelsea,H
+Blackpool,Wolves,H
+Bolton,Newcastle,H
+Liverpool,West Ham,H
+Man United,Wigan,H
+West Brom,Stoke,A
+Blackburn,Aston Villa,H
+Fulham,Man City,A
+Sunderland,Everton,D
+Aston Villa,Arsenal,A
+Bolton,Blackpool,D
+Everton,West Brom,A
+Fulham,Birmingham,D
+Man United,Blackburn,H
+Stoke,Man City,D
+West Ham,Wigan,H
+Wolves,Sunderland,H
+Newcastle,Chelsea,D
+Tottenham,Liverpool,H
+Arsenal,Fulham,H
+Birmingham,Tottenham,D
+Blackburn,Wolves,H
+Chelsea,Everton,D
+Man City,Bolton,H
+Wigan,Stoke,D
+Sunderland,West Ham,H
+West Brom,Newcastle,H
+Liverpool,Aston Villa,H
+Aston Villa,West Brom,H
+Everton,Wigan,D
+Fulham,Sunderland,D
+Newcastle,Liverpool,H
+Stoke,Blackpool,A
+West Ham,Man City,A
+Bolton,Blackburn,H
+Tottenham,Chelsea,D
+Wolves,Birmingham,H
+Man United,Arsenal,H
+Blackburn,West Ham,D
+Sunderland,Bolton,H
+Man City,Everton,A
+Aston Villa,Tottenham,A
+Blackburn,Stoke,A
+Bolton,West Brom,H
+Fulham,West Ham,A
+Man United,Sunderland,H
+Newcastle,Man City,A
+Wolves,Wigan,A
+Arsenal,Chelsea,H
+Birmingham,Man United,D
+Man City,Aston Villa,H
+Stoke,Fulham,A
+Sunderland,Blackpool,A
+Tottenham,Newcastle,H
+West Brom,Blackburn,A
+West Ham,Everton,D
+Chelsea,Bolton,H
+Liverpool,Wolves,A
+Wigan,Arsenal,D
+Birmingham,Arsenal,A
+Liverpool,Bolton,H
+Man City,Blackpool,H
+Stoke,Everton,H
+Sunderland,Blackburn,H
+Tottenham,Fulham,H
+West Brom,Man United,A
+West Ham,Wolves,H
+Chelsea,Aston Villa,D
+Wigan,Newcastle,A
+Blackpool,Birmingham,A
+Fulham,West Brom,H
+Man United,Stoke,H
+Arsenal,Man City,D
+Aston Villa,Sunderland,A
+Blackburn,Liverpool,H
+Bolton,Wigan,D
+Everton,Tottenham,H
+Newcastle,West Ham,H
+Wolves,Chelsea,H
+Blackpool,Liverpool,H
+Chelsea,Blackburn,H
+Man City,Wolves,H
+Stoke,Bolton,H
+West Brom,Blackpool,H
+West Ham,Arsenal,A
+Wigan,Fulham,D
+Birmingham,Aston Villa,D
+Liverpool,Everton,D
+Sunderland,Newcastle,D
+Tottenham,Man United,D
+Arsenal,Wigan,H
+Aston Villa,Man City,H
+Blackpool,Sunderland,A
+Everton,West Ham,D
+Fulham,Stoke,H
+Man United,Birmingham,H
+Newcastle,Tottenham,D
+Wolves,Liverpool,A
+Blackburn,West Brom,H
+Bolton,Chelsea,A
+Blackpool,Man United,A
+Wigan,Aston Villa,A
+Liverpool,Fulham,H
+Arsenal,Everton,H
+Man United,Aston Villa,H
+Sunderland,Chelsea,A
+West Brom,Wigan,D
+Birmingham,Man City,D
+Blackburn,Tottenham,A
+Blackpool,West Ham,A
+Bolton,Wolves,H
+Fulham,Newcastle,H
+Liverpool,Stoke,H
+Aston Villa,Fulham,D
+Everton,Blackpool,H
+Man City,West Brom,H
+Newcastle,Arsenal,D
+Stoke,Sunderland,H
+Tottenham,Bolton,H
+Wigan,Blackburn,H
+Wolves,Man United,H
+Chelsea,Liverpool,A
+West Ham,Birmingham,A
+Arsenal,Wolves,H
+Birmingham,Stoke,H
+Blackburn,Newcastle,D
+Blackpool,Aston Villa,D
+Liverpool,Wigan,D
+Man United,Man City,H
+Sunderland,Tottenham,A
+West Brom,West Ham,D
+Bolton,Everton,H
+Fulham,Chelsea,D
+Birmingham,Newcastle,A
+West Brom,Wolves,D
+Blackpool,Tottenham,H
+Arsenal,Stoke,H
+Aston Villa,Blackburn,H
+Everton,Sunderland,H
+Newcastle,Bolton,D
+Wigan,Man United,A
+Wolves,Blackpool,H
+Man City,Fulham,D
+West Ham,Liverpool,H
+Stoke,West Brom,D
+Chelsea,Man United,H
+Arsenal,Sunderland,D
+Birmingham,West Brom,A
+Bolton,Aston Villa,H
+Fulham,Blackburn,H
+Man City,Wigan,H
+Newcastle,Everton,A
+West Ham,Stoke,H
+Liverpool,Man United,H
+Wolves,Tottenham,D
+Blackpool,Chelsea,A
+Everton,Birmingham,D
+Aston Villa,Wolves,A
+Blackburn,Blackpool,D
+Everton,Fulham,H
+Man United,Bolton,H
+Stoke,Newcastle,H
+Tottenham,West Ham,D
+West Brom,Arsenal,D
+Wigan,Birmingham,H
+Chelsea,Man City,H
+Sunderland,Liverpool,A
+Arsenal,Blackburn,D
+Birmingham,Bolton,H
+Everton,Aston Villa,D
+Newcastle,Wolves,H
+Stoke,Chelsea,D
+West Brom,Liverpool,H
+West Ham,Man United,A
+Wigan,Tottenham,D
+Fulham,Blackpool,H
+Man City,Sunderland,H
+Blackburn,Birmingham,D
+Bolton,West Ham,H
+Chelsea,Wigan,H
+Man United,Fulham,H
+Sunderland,West Brom,A
+Tottenham,Stoke,H
+Wolves,Everton,A
+Aston Villa,Newcastle,H
+Blackpool,Arsenal,A
+Liverpool,Man City,H
+Birmingham,Sunderland,H
+Blackpool,Wigan,A
+Everton,Blackburn,H
+West Brom,Chelsea,A
+West Ham,Aston Villa,A
+Arsenal,Liverpool,D
+Newcastle,Man United,D
+Chelsea,Birmingham,H
+Tottenham,Arsenal,D
+Aston Villa,Stoke,D
+Blackpool,Newcastle,D
+Chelsea,West Ham,H
+Liverpool,Birmingham,H
+Man United,Everton,H
+Sunderland,Wigan,H
+Tottenham,West Brom,D
+Wolves,Fulham,D
+Bolton,Arsenal,H
+Blackburn,Man City,A
+Stoke,Wolves,H
+Fulham,Bolton,H
+Blackburn,Bolton,H
+Blackpool,Stoke,D
+Chelsea,Tottenham,H
+Sunderland,Fulham,A
+West Brom,Aston Villa,H
+Wigan,Everton,D
+Arsenal,Man United,H
+Birmingham,Wolves,D
+Liverpool,Newcastle,H
+Man City,West Ham,H
+Aston Villa,Wigan,D
+Bolton,Sunderland,A
+Everton,Man City,H
+Newcastle,Birmingham,H
+Tottenham,Blackpool,D
+West Ham,Blackburn,D
+Man United,Chelsea,H
+Stoke,Arsenal,H
+Wolves,West Brom,H
+Fulham,Liverpool,A
+Man City,Tottenham,H
+Blackburn,Man United,D
+Blackpool,Bolton,H
+Sunderland,Wolves,A
+West Brom,Everton,H
+Arsenal,Aston Villa,A
+Birmingham,Fulham,A
+Chelsea,Newcastle,D
+Liverpool,Tottenham,A
+Wigan,West Ham,H
+Man City,Stoke,H
+Aston Villa,Liverpool,H
+Bolton,Man City,A
+Everton,Chelsea,H
+Fulham,Arsenal,D
+Man United,Blackpool,H
+Newcastle,West Brom,D
+Stoke,Wigan,A
+Tottenham,Birmingham,H
+West Ham,Sunderland,A
+Wolves,Blackburn,A
+Blackburn,Wolves,A
+Fulham,Aston Villa,D
+Liverpool,Sunderland,D
+Newcastle,Arsenal,D
+QPR,Bolton,A
+Wigan,Norwich,D
+Stoke,Chelsea,D
+West Brom,Man United,A
+Man City,Swansea,H
+Arsenal,Liverpool,A
+Aston Villa,Blackburn,H
+Chelsea,West Brom,H
+Everton,QPR,A
+Sunderland,Newcastle,A
+Swansea,Wigan,D
+Bolton,Man City,A
+Norwich,Stoke,D
+Wolves,Fulham,H
+Man United,Tottenham,H
+Aston Villa,Wolves,D
+Blackburn,Everton,A
+Chelsea,Norwich,H
+Liverpool,Bolton,H
+Swansea,Sunderland,D
+Wigan,QPR,H
+Man United,Arsenal,H
+Newcastle,Fulham,H
+Tottenham,Man City,A
+West Brom,Stoke,A
+Arsenal,Swansea,H
+Bolton,Man United,A
+Everton,Aston Villa,D
+Man City,Wigan,H
+Stoke,Liverpool,H
+Sunderland,Chelsea,A
+Wolves,Tottenham,A
+Fulham,Blackburn,D
+Norwich,West Brom,A
+QPR,Newcastle,D
+Aston Villa,Newcastle,D
+Blackburn,Arsenal,H
+Bolton,Norwich,A
+Everton,Wigan,H
+Swansea,West Brom,H
+Wolves,QPR,A
+Fulham,Man City,D
+Man United,Chelsea,H
+Sunderland,Stoke,H
+Tottenham,Liverpool,H
+Arsenal,Bolton,H
+Chelsea,Swansea,H
+Liverpool,Wolves,H
+Man City,Everton,H
+Newcastle,Blackburn,H
+Stoke,Man United,D
+West Brom,Fulham,D
+Wigan,Tottenham,A
+QPR,Aston Villa,D
+Norwich,Sunderland,H
+Aston Villa,Wigan,H
+Blackburn,Man City,A
+Everton,Liverpool,A
+Man United,Norwich,H
+Sunderland,West Brom,D
+Wolves,Newcastle,A
+Bolton,Chelsea,A
+Fulham,QPR,H
+Swansea,Stoke,H
+Tottenham,Arsenal,H
+Chelsea,Everton,H
+Liverpool,Man United,D
+Man City,Aston Villa,H
+Norwich,Swansea,H
+QPR,Blackburn,D
+Stoke,Fulham,H
+Wigan,Bolton,A
+Arsenal,Sunderland,H
+Newcastle,Tottenham,D
+West Brom,Wolves,H
+Aston Villa,West Brom,A
+Bolton,Sunderland,A
+Liverpool,Norwich,D
+Newcastle,Wigan,H
+Wolves,Swansea,D
+Arsenal,Stoke,H
+Blackburn,Tottenham,A
+Fulham,Everton,A
+Man United,Man City,A
+QPR,Chelsea,H
+Chelsea,Arsenal,A
+Everton,Man United,A
+Man City,Wolves,H
+Norwich,Blackburn,D
+Sunderland,Aston Villa,D
+Swansea,Bolton,H
+West Brom,Liverpool,A
+Wigan,Fulham,A
+Tottenham,QPR,H
+Stoke,Newcastle,A
+Arsenal,West Brom,H
+Aston Villa,Norwich,H
+Blackburn,Chelsea,A
+Liverpool,Swansea,D
+Man United,Sunderland,H
+Newcastle,Everton,H
+QPR,Man City,A
+Bolton,Stoke,H
+Fulham,Tottenham,A
+Wolves,Wigan,H
+Everton,Wolves,H
+Man City,Newcastle,H
+Norwich,Arsenal,A
+Stoke,QPR,A
+Sunderland,Fulham,D
+Swansea,Man United,A
+West Brom,Bolton,H
+Wigan,Blackburn,D
+Chelsea,Liverpool,A
+Tottenham,Aston Villa,H
+Arsenal,Fulham,D
+Bolton,Everton,A
+Chelsea,Wolves,H
+Man United,Newcastle,D
+Norwich,QPR,H
+Stoke,Blackburn,H
+Sunderland,Wigan,A
+West Brom,Tottenham,A
+Liverpool,Man City,D
+Swansea,Aston Villa,D
+Aston Villa,Man United,A
+Blackburn,Swansea,H
+Man City,Norwich,H
+Newcastle,Chelsea,A
+QPR,West Brom,D
+Tottenham,Bolton,H
+Wigan,Arsenal,A
+Everton,Stoke,A
+Wolves,Sunderland,H
+Fulham,Liverpool,H
+Arsenal,Everton,H
+Bolton,Aston Villa,A
+Liverpool,QPR,H
+Man United,Wolves,H
+Norwich,Newcastle,H
+Swansea,Fulham,H
+West Brom,Wigan,A
+Stoke,Tottenham,H
+Sunderland,Blackburn,H
+Chelsea,Man City,H
+Blackburn,West Brom,A
+Everton,Norwich,D
+Fulham,Bolton,H
+Newcastle,Swansea,D
+Wigan,Chelsea,D
+Wolves,Stoke,A
+Aston Villa,Liverpool,A
+Man City,Arsenal,H
+QPR,Man United,A
+Tottenham,Sunderland,H
+Blackburn,Bolton,A
+Wolves,Norwich,D
+Aston Villa,Arsenal,A
+Everton,Swansea,H
+Fulham,Man United,A
+Man City,Stoke,H
+Newcastle,West Brom,A
+QPR,Sunderland,A
+Wigan,Liverpool,D
+Tottenham,Chelsea,D
+Bolton,Newcastle,A
+Chelsea,Fulham,D
+Liverpool,Blackburn,D
+Man United,Wigan,H
+Stoke,Aston Villa,D
+Sunderland,Everton,D
+West Brom,Man City,D
+Arsenal,Wolves,D
+Norwich,Tottenham,A
+Swansea,QPR,D
+Liverpool,Newcastle,H
+Arsenal,QPR,H
+Bolton,Wolves,D
+Chelsea,Aston Villa,A
+Man United,Blackburn,A
+Norwich,Fulham,D
+Stoke,Wigan,D
+Swansea,Tottenham,D
+Sunderland,Man City,H
+West Brom,Everton,A
+Aston Villa,Swansea,A
+Blackburn,Stoke,A
+Fulham,Arsenal,H
+QPR,Norwich,A
+Wolves,Chelsea,A
+Man City,Liverpool,H
+Tottenham,West Brom,H
+Wigan,Sunderland,A
+Everton,Bolton,A
+Newcastle,Man United,H
+Tottenham,Everton,H
+Aston Villa,Everton,D
+Blackburn,Fulham,H
+Chelsea,Sunderland,H
+Liverpool,Stoke,D
+Man United,Bolton,H
+Tottenham,Wolves,D
+West Brom,Norwich,A
+Newcastle,QPR,H
+Swansea,Arsenal,H
+Wigan,Man City,A
+Bolton,Liverpool,H
+Everton,Blackburn,D
+Fulham,Newcastle,H
+Norwich,Chelsea,D
+QPR,Wigan,H
+Stoke,West Brom,A
+Sunderland,Swansea,H
+Wolves,Aston Villa,A
+Arsenal,Man United,A
+Man City,Tottenham,H
+Everton,Man City,H
+Man United,Stoke,H
+Swansea,Chelsea,D
+Tottenham,Wigan,H
+Wolves,Liverpool,A
+Aston Villa,QPR,D
+Blackburn,Newcastle,A
+Bolton,Arsenal,D
+Fulham,West Brom,D
+Sunderland,Norwich,H
+Arsenal,Blackburn,H
+Man City,Fulham,H
+Norwich,Bolton,H
+QPR,Wolves,A
+Stoke,Sunderland,A
+West Brom,Swansea,A
+Wigan,Everton,D
+Chelsea,Man United,D
+Newcastle,Aston Villa,H
+Liverpool,Tottenham,D
+Blackburn,QPR,H
+Bolton,Wigan,A
+Everton,Chelsea,H
+Fulham,Stoke,H
+Man United,Liverpool,H
+Sunderland,Arsenal,A
+Swansea,Norwich,A
+Tottenham,Newcastle,H
+Aston Villa,Man City,A
+Wolves,West Brom,A
+Chelsea,Bolton,H
+Man City,Blackburn,H
+Newcastle,Wolves,D
+QPR,Fulham,A
+West Brom,Sunderland,H
+Wigan,Aston Villa,D
+Arsenal,Tottenham,H
+Norwich,Man United,A
+Stoke,Swansea,H
+Blackburn,Aston Villa,D
+Liverpool,Arsenal,A
+Man City,Bolton,H
+QPR,Everton,D
+Stoke,Norwich,H
+West Brom,Chelsea,H
+Wigan,Swansea,A
+Fulham,Wolves,H
+Newcastle,Sunderland,D
+Tottenham,Man United,A
+Aston Villa,Fulham,H
+Bolton,QPR,H
+Chelsea,Stoke,H
+Everton,Tottenham,H
+Sunderland,Liverpool,H
+Wolves,Blackburn,A
+Man United,West Brom,H
+Norwich,Wigan,D
+Swansea,Man City,H
+Arsenal,Newcastle,H
+Liverpool,Everton,H
+Fulham,Swansea,A
+Wigan,West Brom,D
+Newcastle,Norwich,H
+Wolves,Man United,A
+Blackburn,Sunderland,H
+Everton,Arsenal,A
+Man City,Chelsea,H
+QPR,Liverpool,H
+Tottenham,Stoke,D
+Arsenal,Aston Villa,H
+Bolton,Blackburn,H
+Chelsea,Tottenham,D
+Liverpool,Wigan,A
+Norwich,Wolves,H
+Stoke,Man City,D
+Sunderland,QPR,H
+Swansea,Everton,A
+West Brom,Newcastle,A
+Man United,Fulham,H
+Aston Villa,Chelsea,A
+Everton,West Brom,H
+Fulham,Norwich,H
+Man City,Sunderland,D
+QPR,Arsenal,H
+Wigan,Stoke,H
+Wolves,Bolton,A
+Newcastle,Liverpool,H
+Tottenham,Swansea,H
+Blackburn,Man United,A
+Swansea,Newcastle,A
+Bolton,Fulham,A
+Chelsea,Wigan,H
+Liverpool,Aston Villa,D
+Norwich,Everton,D
+Stoke,Wolves,H
+Sunderland,Tottenham,D
+West Brom,Blackburn,H
+Arsenal,Man City,H
+Man United,QPR,H
+Aston Villa,Stoke,D
+Everton,Sunderland,H
+Fulham,Chelsea,D
+Newcastle,Bolton,H
+Tottenham,Norwich,A
+Blackburn,Liverpool,A
+Man City,West Brom,H
+QPR,Swansea,H
+Wigan,Man United,H
+Wolves,Arsenal,A
+Norwich,Man City,A
+Sunderland,Wolves,D
+Swansea,Blackburn,H
+West Brom,QPR,H
+Man United,Aston Villa,H
+Arsenal,Wigan,A
+Arsenal,Chelsea,D
+Aston Villa,Sunderland,D
+Blackburn,Norwich,H
+Bolton,Swansea,D
+Fulham,Wigan,H
+Newcastle,Stoke,H
+QPR,Tottenham,H
+Liverpool,West Brom,A
+Man United,Everton,D
+Wolves,Man City,A
+Aston Villa,Bolton,A
+Everton,Fulham,H
+Norwich,Liverpool,A
+Stoke,Arsenal,D
+Sunderland,Bolton,D
+Swansea,Wolves,D
+West Brom,Aston Villa,D
+Wigan,Newcastle,H
+Chelsea,QPR,H
+Tottenham,Blackburn,H
+Man City,Man United,H
+Liverpool,Fulham,A
+Stoke,Everton,D
+Bolton,Tottenham,A
+Chelsea,Newcastle,A
+Arsenal,Norwich,D
+Aston Villa,Tottenham,D
+Bolton,West Brom,D
+Fulham,Sunderland,H
+Man United,Swansea,H
+Newcastle,Man City,A
+QPR,Stoke,H
+Wolves,Everton,D
+Blackburn,Wigan,A
+Liverpool,Chelsea,H
+Chelsea,Blackburn,H
+Everton,Newcastle,H
+Man City,QPR,H
+Norwich,Aston Villa,H
+Stoke,Bolton,D
+Sunderland,Man United,A
+Swansea,Liverpool,H
+Tottenham,Fulham,H
+West Brom,Arsenal,A
+Wigan,Wolves,H
+Arsenal,Sunderland,D
+Fulham,Norwich,H
+Newcastle,Tottenham,H
+QPR,Swansea,A
+Reading,Stoke,D
+West Brom,Liverpool,H
+West Ham,Aston Villa,H
+Man City,Southampton,H
+Wigan,Chelsea,A
+Everton,Man United,H
+Chelsea,Reading,H
+Aston Villa,Everton,A
+Chelsea,Newcastle,H
+Man United,Fulham,H
+Norwich,QPR,D
+Southampton,Wigan,A
+Swansea,West Ham,H
+Tottenham,West Brom,D
+Liverpool,Man City,D
+Stoke,Arsenal,D
+Man City,QPR,H
+Swansea,Sunderland,D
+Tottenham,Norwich,D
+West Brom,Everton,H
+West Ham,Fulham,H
+Wigan,Stoke,D
+Liverpool,Arsenal,A
+Newcastle,Aston Villa,D
+Southampton,Man United,A
+Arsenal,Southampton,H
+Aston Villa,Swansea,H
+Fulham,West Brom,H
+Man United,Wigan,H
+Norwich,West Ham,D
+QPR,Chelsea,D
+Stoke,Man City,D
+Sunderland,Liverpool,D
+Reading,Tottenham,A
+Everton,Newcastle,D
+Chelsea,Stoke,H
+Southampton,Aston Villa,H
+Swansea,Everton,A
+West Brom,Reading,H
+West Ham,Sunderland,D
+Wigan,Fulham,A
+Liverpool,Man United,A
+Man City,Arsenal,D
+Newcastle,Norwich,H
+Tottenham,QPR,H
+Arsenal,Chelsea,A
+Everton,Southampton,H
+Fulham,Man City,A
+Man United,Tottenham,A
+Norwich,Liverpool,A
+Reading,Newcastle,D
+Stoke,Swansea,H
+Sunderland,Wigan,H
+Aston Villa,West Brom,D
+QPR,West Ham,A
+Chelsea,Norwich,H
+Man City,Sunderland,H
+Swansea,Reading,D
+West Brom,QPR,H
+West Ham,Arsenal,A
+Wigan,Everton,D
+Liverpool,Stoke,D
+Newcastle,Man United,A
+Southampton,Fulham,D
+Tottenham,Aston Villa,H
+Fulham,Aston Villa,H
+Liverpool,Reading,H
+Man United,Stoke,H
+Norwich,Arsenal,H
+Swansea,Wigan,H
+Tottenham,Chelsea,A
+West Brom,Man City,A
+West Ham,Southampton,H
+QPR,Everton,D
+Sunderland,Newcastle,D
+Arsenal,QPR,H
+Aston Villa,Norwich,D
+Man City,Swansea,H
+Reading,Fulham,D
+Stoke,Sunderland,D
+Wigan,West Ham,H
+Chelsea,Man United,A
+Everton,Liverpool,D
+Newcastle,West Brom,H
+Southampton,Tottenham,A
+Fulham,Everton,D
+Man United,Arsenal,H
+Norwich,Stoke,H
+Sunderland,Aston Villa,A
+Swansea,Chelsea,D
+Tottenham,Wigan,A
+West Ham,Man City,D
+Liverpool,Newcastle,D
+QPR,Reading,D
+West Brom,Southampton,H
+Arsenal,Fulham,D
+Aston Villa,Man United,A
+Everton,Sunderland,H
+Reading,Norwich,D
+Southampton,Swansea,D
+Stoke,QPR,H
+Wigan,West Brom,A
+Chelsea,Liverpool,D
+Man City,Tottenham,H
+Newcastle,West Ham,A
+Arsenal,Tottenham,H
+Liverpool,Wigan,H
+Man City,Aston Villa,H
+Newcastle,Swansea,A
+Norwich,Man United,H
+QPR,Southampton,A
+Reading,Everton,H
+West Brom,Chelsea,H
+Fulham,Sunderland,A
+West Ham,Stoke,D
+Aston Villa,Arsenal,D
+Everton,Norwich,D
+Man United,QPR,H
+Stoke,Fulham,H
+Sunderland,West Brom,A
+Wigan,Reading,H
+Chelsea,Man City,D
+Southampton,Newcastle,H
+Swansea,Liverpool,D
+Tottenham,West Ham,H
+Aston Villa,Reading,H
+Sunderland,QPR,D
+Chelsea,Fulham,D
+Everton,Arsenal,D
+Man United,West Ham,H
+Southampton,Norwich,D
+Stoke,Newcastle,H
+Swansea,West Brom,H
+Tottenham,Liverpool,H
+Wigan,Man City,A
+Arsenal,Swansea,A
+Fulham,Tottenham,A
+Liverpool,Southampton,H
+Man City,Everton,D
+QPR,Aston Villa,D
+Reading,Man United,A
+West Brom,Stoke,A
+West Ham,Chelsea,H
+Norwich,Sunderland,H
+Newcastle,Wigan,H
+Arsenal,West Brom,H
+Aston Villa,Stoke,D
+Southampton,Reading,H
+Sunderland,Chelsea,A
+Swansea,Norwich,A
+Wigan,QPR,D
+Everton,Tottenham,H
+Man City,Man United,A
+West Ham,Liverpool,A
+Fulham,Newcastle,H
+Sunderland,Reading,H
+Liverpool,Aston Villa,A
+Man United,Sunderland,H
+Newcastle,Man City,A
+Norwich,Wigan,H
+QPR,Fulham,H
+Stoke,Everton,D
+Tottenham,Swansea,H
+West Brom,West Ham,D
+Reading,Arsenal,A
+Liverpool,Fulham,H
+Man City,Reading,H
+Newcastle,QPR,H
+Southampton,Sunderland,A
+Tottenham,Stoke,D
+West Brom,Norwich,H
+West Ham,Everton,A
+Wigan,Arsenal,A
+Chelsea,Aston Villa,H
+Swansea,Man United,D
+Aston Villa,Tottenham,A
+Everton,Wigan,H
+Fulham,Southampton,D
+Man United,Newcastle,H
+Norwich,Chelsea,A
+QPR,West Brom,A
+Reading,Swansea,D
+Stoke,Liverpool,H
+Sunderland,Man City,H
+Arsenal,Newcastle,H
+Aston Villa,Wigan,A
+Fulham,Swansea,A
+Man United,West Brom,H
+Norwich,Man City,A
+Reading,West Ham,H
+Stoke,Southampton,D
+Sunderland,Tottenham,A
+Everton,Chelsea,A
+QPR,Liverpool,A
+Man City,Stoke,H
+Southampton,Arsenal,D
+Swansea,Aston Villa,D
+Tottenham,Reading,H
+West Brom,Fulham,A
+West Ham,Norwich,H
+Wigan,Man United,A
+Chelsea,QPR,A
+Liverpool,Sunderland,H
+Newcastle,Everton,A
+Aston Villa,Southampton,A
+Everton,Swansea,D
+Fulham,Wigan,D
+Norwich,Newcastle,D
+QPR,Tottenham,D
+Reading,West Brom,H
+Stoke,Chelsea,A
+Sunderland,West Ham,H
+Arsenal,Man City,A
+Man United,Liverpool,H
+Chelsea,Southampton,D
+Liverpool,Norwich,H
+Man City,Fulham,H
+Newcastle,Reading,A
+Swansea,Stoke,H
+West Brom,Aston Villa,D
+West Ham,QPR,D
+Wigan,Sunderland,A
+Chelsea,Arsenal,H
+Tottenham,Man United,D
+Southampton,Everton,D
+Arsenal,West Ham,H
+Aston Villa,Newcastle,A
+QPR,Man City,D
+Stoke,Wigan,D
+Sunderland,Swansea,D
+Arsenal,Liverpool,D
+Everton,West Brom,H
+Fulham,West Ham,H
+Man United,Southampton,H
+Norwich,Tottenham,D
+Reading,Chelsea,D
+Arsenal,Stoke,H
+Everton,Aston Villa,D
+Fulham,Man United,A
+Newcastle,Chelsea,H
+QPR,Norwich,D
+Reading,Sunderland,H
+West Ham,Swansea,H
+Wigan,Southampton,D
+Man City,Liverpool,D
+West Brom,Tottenham,A
+Chelsea,Wigan,H
+Norwich,Fulham,D
+Southampton,Man City,H
+Stoke,Reading,H
+Sunderland,Arsenal,A
+Swansea,QPR,H
+Tottenham,Newcastle,H
+Aston Villa,West Ham,H
+Man United,Everton,H
+Liverpool,West Brom,A
+Liverpool,Swansea,H
+Arsenal,Aston Villa,H
+Fulham,Stoke,H
+Norwich,Everton,H
+QPR,Man United,A
+Reading,Wigan,A
+West Brom,Sunderland,H
+Man City,Chelsea,H
+Newcastle,Southampton,H
+West Ham,Tottenham,A
+Chelsea,West Brom,H
+Everton,Reading,H
+Man United,Norwich,H
+Southampton,QPR,A
+Stoke,West Ham,A
+Sunderland,Fulham,D
+Swansea,Newcastle,H
+Wigan,Liverpool,A
+Tottenham,Arsenal,H
+Aston Villa,Man City,A
+Norwich,Southampton,D
+QPR,Sunderland,H
+Reading,Aston Villa,A
+West Brom,Swansea,H
+Liverpool,Tottenham,H
+Newcastle,Stoke,H
+Aston Villa,QPR,H
+Everton,Man City,H
+Man United,Reading,H
+Southampton,Liverpool,H
+Stoke,West Brom,D
+Swansea,Arsenal,A
+Chelsea,West Ham,H
+Sunderland,Norwich,D
+Tottenham,Fulham,A
+Wigan,Newcastle,H
+Arsenal,Reading,H
+Everton,Stoke,H
+Man City,Newcastle,H
+Southampton,Chelsea,H
+Sunderland,Man United,A
+Swansea,Tottenham,A
+West Ham,West Brom,H
+Wigan,Norwich,H
+Aston Villa,Liverpool,A
+Fulham,QPR,H
+Norwich,Swansea,D
+Reading,Southampton,A
+Stoke,Aston Villa,A
+West Brom,Arsenal,A
+Chelsea,Sunderland,H
+Liverpool,West Ham,D
+Newcastle,Fulham,H
+QPR,Wigan,D
+Tottenham,Everton,D
+Man United,Man City,A
+Arsenal,Norwich,H
+Aston Villa,Fulham,D
+Everton,QPR,H
+Reading,Liverpool,D
+Southampton,West Ham,D
+Newcastle,Sunderland,A
+Stoke,Man United,A
+Arsenal,Everton,D
+Fulham,Chelsea,A
+Man City,Wigan,H
+West Ham,Man United,D
+Fulham,Arsenal,A
+Norwich,Reading,H
+QPR,Stoke,A
+Sunderland,Everton,H
+Swansea,Southampton,D
+West Brom,Newcastle,D
+West Ham,Wigan,H
+Liverpool,Chelsea,D
+Tottenham,Man City,H
+Man United,Aston Villa,H
+Everton,Fulham,H
+Man City,West Ham,H
+Newcastle,Liverpool,A
+Southampton,West Brom,A
+Stoke,Norwich,H
+Wigan,Tottenham,D
+Arsenal,Man United,D
+Chelsea,Swansea,H
+Reading,QPR,D
+Aston Villa,Sunderland,H
+Fulham,Reading,A
+Norwich,Aston Villa,A
+QPR,Arsenal,A
+Swansea,Man City,D
+Tottenham,Southampton,H
+West Brom,Wigan,A
+West Ham,Newcastle,D
+Liverpool,Everton,D
+Man United,Chelsea,A
+Sunderland,Stoke,D
+Man City,West Brom,H
+Wigan,Swansea,A
+Chelsea,Tottenham,D
+Aston Villa,Chelsea,A
+Everton,West Ham,H
+Fulham,Liverpool,A
+Man United,Swansea,H
+Norwich,West Brom,H
+QPR,Newcastle,A
+Stoke,Tottenham,A
+Sunderland,Southampton,D
+Arsenal,Wigan,H
+Reading,Man City,A
+Chelsea,Everton,H
+Liverpool,QPR,H
+Man City,Norwich,A
+Newcastle,Arsenal,A
+Southampton,Stoke,D
+Swansea,Fulham,A
+Tottenham,Sunderland,H
+West Brom,Man United,D
+West Ham,Reading,H
+Wigan,Aston Villa,D
+Arsenal,Aston Villa,A
+Liverpool,Stoke,H
+Norwich,Everton,D
+Sunderland,Fulham,A
+Swansea,Man United,A
+West Brom,Southampton,A
+West Ham,Cardiff,H
+Chelsea,Hull,H
+Crystal Palace,Tottenham,A
+Man City,Newcastle,H
+Chelsea,Aston Villa,H
+Aston Villa,Liverpool,A
+Everton,West Brom,D
+Fulham,Arsenal,A
+Hull,Norwich,H
+Newcastle,West Ham,D
+Southampton,Sunderland,D
+Stoke,Crystal Palace,H
+Cardiff,Man City,H
+Tottenham,Swansea,H
+Man United,Chelsea,D
+Cardiff,Everton,D
+Crystal Palace,Sunderland,H
+Man City,Hull,H
+Newcastle,Fulham,H
+Norwich,Southampton,H
+West Ham,Stoke,A
+Arsenal,Tottenham,H
+Liverpool,Man United,H
+West Brom,Swansea,A
+Aston Villa,Newcastle,A
+Everton,Chelsea,H
+Fulham,West Brom,D
+Hull,Cardiff,D
+Man United,Crystal Palace,H
+Stoke,Man City,D
+Sunderland,Arsenal,A
+Tottenham,Norwich,H
+Southampton,West Ham,D
+Swansea,Liverpool,D
+Chelsea,Fulham,H
+Liverpool,Southampton,A
+Newcastle,Hull,A
+Norwich,Aston Villa,A
+West Brom,Sunderland,H
+West Ham,Everton,A
+Arsenal,Stoke,H
+Cardiff,Tottenham,A
+Crystal Palace,Swansea,A
+Man City,Man United,H
+Aston Villa,Man City,H
+Fulham,Cardiff,A
+Hull,West Ham,H
+Man United,West Brom,A
+Southampton,Crystal Palace,H
+Swansea,Arsenal,A
+Tottenham,Chelsea,D
+Stoke,Norwich,A
+Sunderland,Liverpool,A
+Everton,Newcastle,H
+Cardiff,Newcastle,A
+Fulham,Stoke,H
+Hull,Aston Villa,D
+Liverpool,Crystal Palace,H
+Man City,Everton,H
+Sunderland,Man United,A
+Norwich,Chelsea,A
+Southampton,Swansea,H
+Tottenham,West Ham,A
+West Brom,Arsenal,D
+Arsenal,Norwich,H
+Chelsea,Cardiff,H
+Everton,Hull,H
+Man United,Southampton,D
+Newcastle,Liverpool,D
+Stoke,West Brom,D
+Swansea,Sunderland,H
+West Ham,Man City,A
+Aston Villa,Tottenham,A
+Crystal Palace,Fulham,A
+Aston Villa,Everton,A
+Crystal Palace,Arsenal,A
+Liverpool,West Brom,H
+Man United,Stoke,H
+Norwich,Cardiff,D
+Southampton,Fulham,H
+Chelsea,Man City,H
+Sunderland,Newcastle,H
+Swansea,West Ham,D
+Tottenham,Hull,H
+Arsenal,Liverpool,H
+Fulham,Man United,A
+Hull,Sunderland,H
+Man City,Norwich,H
+Newcastle,Chelsea,H
+Stoke,Southampton,D
+West Brom,Crystal Palace,H
+West Ham,Aston Villa,D
+Cardiff,Swansea,H
+Everton,Tottenham,D
+Aston Villa,Cardiff,H
+Chelsea,West Brom,D
+Crystal Palace,Everton,D
+Liverpool,Fulham,H
+Norwich,West Ham,H
+Southampton,Hull,H
+Man United,Arsenal,H
+Sunderland,Man City,H
+Swansea,Stoke,D
+Tottenham,Newcastle,A
+Arsenal,Southampton,H
+Everton,Liverpool,D
+Fulham,Swansea,A
+Hull,Crystal Palace,A
+Newcastle,Norwich,H
+Stoke,Sunderland,H
+West Ham,Chelsea,A
+Cardiff,Man United,D
+Man City,Tottenham,H
+West Brom,Aston Villa,D
+Aston Villa,Sunderland,D
+Cardiff,Arsenal,A
+Everton,Stoke,H
+Newcastle,West Brom,H
+Norwich,Crystal Palace,H
+West Ham,Fulham,H
+Chelsea,Southampton,H
+Hull,Liverpool,H
+Man City,Swansea,H
+Tottenham,Man United,D
+Crystal Palace,West Ham,H
+Arsenal,Hull,H
+Fulham,Tottenham,A
+Liverpool,Norwich,H
+Man United,Everton,A
+Southampton,Aston Villa,A
+Stoke,Cardiff,D
+Sunderland,Chelsea,A
+Swansea,Newcastle,H
+West Brom,Man City,A
+Crystal Palace,Cardiff,H
+Liverpool,West Ham,H
+Man United,Newcastle,A
+Southampton,Man City,D
+Stoke,Chelsea,H
+Sunderland,Tottenham,A
+West Brom,Norwich,A
+Arsenal,Everton,D
+Fulham,Aston Villa,H
+Swansea,Hull,D
+Cardiff,West Brom,H
+Chelsea,Crystal Palace,H
+Everton,Fulham,H
+Hull,Stoke,D
+Man City,Arsenal,H
+Newcastle,Southampton,D
+West Ham,Sunderland,D
+Aston Villa,Man United,A
+Norwich,Swansea,D
+Tottenham,Liverpool,A
+Crystal Palace,Newcastle,A
+Fulham,Man City,A
+Liverpool,Cardiff,H
+Man United,West Ham,H
+Stoke,Aston Villa,H
+Sunderland,Norwich,D
+West Brom,Hull,D
+Southampton,Tottenham,A
+Swansea,Everton,A
+Arsenal,Chelsea,D
+Aston Villa,Crystal Palace,A
+Cardiff,Southampton,A
+Chelsea,Swansea,H
+Everton,Sunderland,A
+Hull,Man United,A
+Man City,Liverpool,H
+Newcastle,Stoke,H
+Norwich,Fulham,A
+Tottenham,West Brom,D
+West Ham,Arsenal,A
+Aston Villa,Swansea,D
+Cardiff,Sunderland,D
+Hull,Fulham,H
+Man City,Crystal Palace,H
+Norwich,Man United,A
+West Ham,West Brom,D
+Chelsea,Liverpool,H
+Everton,Southampton,H
+Newcastle,Arsenal,A
+Tottenham,Stoke,H
+Arsenal,Cardiff,H
+Crystal Palace,Norwich,D
+Fulham,West Ham,H
+Liverpool,Hull,H
+Man United,Tottenham,A
+Southampton,Chelsea,A
+Stoke,Everton,D
+Sunderland,Aston Villa,A
+Swansea,Man City,A
+West Brom,Newcastle,H
+Cardiff,West Ham,A
+Everton,Norwich,H
+Fulham,Sunderland,A
+Hull,Chelsea,A
+Man United,Swansea,H
+Southampton,West Brom,H
+Tottenham,Crystal Palace,H
+Newcastle,Man City,A
+Stoke,Liverpool,A
+Aston Villa,Arsenal,A
+Arsenal,Fulham,H
+Crystal Palace,Stoke,H
+Liverpool,Aston Villa,D
+Man City,Cardiff,H
+Norwich,Hull,H
+Sunderland,Southampton,D
+West Ham,Newcastle,A
+Chelsea,Man United,H
+Swansea,Tottenham,A
+West Brom,Everton,D
+Crystal Palace,Hull,H
+Liverpool,Everton,H
+Man United,Cardiff,H
+Norwich,Newcastle,D
+Southampton,Arsenal,D
+Swansea,Fulham,H
+Aston Villa,West Brom,H
+Chelsea,West Ham,D
+Sunderland,Stoke,H
+Tottenham,Man City,A
+Cardiff,Norwich,H
+Everton,Aston Villa,H
+Fulham,Southampton,A
+Hull,Tottenham,D
+Newcastle,Sunderland,A
+Stoke,Man United,H
+West Ham,Swansea,H
+Arsenal,Crystal Palace,H
+West Brom,Liverpool,D
+Man City,Chelsea,A
+Aston Villa,West Ham,A
+Chelsea,Newcastle,H
+Crystal Palace,West Brom,H
+Liverpool,Arsenal,H
+Norwich,Man City,D
+Southampton,Stoke,D
+Sunderland,Hull,A
+Swansea,Cardiff,H
+Man United,Fulham,D
+Tottenham,Everton,H
+Cardiff,Aston Villa,D
+Hull,Southampton,A
+West Brom,Chelsea,D
+West Ham,Norwich,H
+Arsenal,Man United,D
+Fulham,Liverpool,A
+Newcastle,Tottenham,A
+Stoke,Swansea,D
+Arsenal,Sunderland,H
+Cardiff,Hull,A
+Chelsea,Everton,H
+Crystal Palace,Man United,A
+Man City,Stoke,H
+West Brom,Fulham,D
+West Ham,Southampton,H
+Liverpool,Swansea,H
+Newcastle,Aston Villa,H
+Norwich,Tottenham,H
+Everton,West Ham,H
+Fulham,Chelsea,A
+Hull,Newcastle,A
+Southampton,Liverpool,A
+Stoke,Arsenal,H
+Aston Villa,Norwich,H
+Swansea,Crystal Palace,D
+Tottenham,Cardiff,H
+Cardiff,Fulham,H
+Chelsea,Tottenham,H
+Crystal Palace,Southampton,A
+Norwich,Stoke,D
+West Brom,Man United,A
+Aston Villa,Chelsea,H
+Everton,Cardiff,H
+Fulham,Newcastle,H
+Hull,Man City,A
+Southampton,Norwich,H
+Stoke,West Ham,H
+Sunderland,Crystal Palace,D
+Swansea,West Brom,A
+Man United,Liverpool,A
+Tottenham,Arsenal,A
+Cardiff,Liverpool,A
+Chelsea,Arsenal,H
+Everton,Swansea,H
+Hull,West Brom,H
+Man City,Fulham,H
+Newcastle,Crystal Palace,H
+Norwich,Sunderland,H
+West Ham,Man United,A
+Aston Villa,Stoke,A
+Tottenham,Southampton,H
+Arsenal,Swansea,D
+Man United,Man City,A
+Newcastle,Everton,A
+Liverpool,Sunderland,H
+West Ham,Hull,H
+Arsenal,Man City,D
+Crystal Palace,Chelsea,H
+Man United,Aston Villa,H
+Southampton,Newcastle,H
+Stoke,Hull,H
+Swansea,Norwich,H
+West Brom,Cardiff,D
+Fulham,Everton,A
+Liverpool,Tottenham,H
+Sunderland,West Ham,A
+Aston Villa,Fulham,A
+Cardiff,Crystal Palace,A
+Chelsea,Stoke,H
+Hull,Swansea,H
+Man City,Southampton,H
+Newcastle,Man United,A
+Norwich,West Brom,A
+Everton,Arsenal,H
+West Ham,Liverpool,A
+Tottenham,Sunderland,H
+Crystal Palace,Aston Villa,H
+Fulham,Norwich,H
+Southampton,Cardiff,A
+Stoke,Newcastle,H
+Sunderland,Everton,A
+West Brom,Tottenham,D
+Liverpool,Man City,H
+Swansea,Chelsea,A
+Arsenal,West Ham,H
+Everton,Crystal Palace,A
+Man City,Sunderland,D
+Aston Villa,Southampton,D
+Cardiff,Stoke,D
+Chelsea,Sunderland,A
+Newcastle,Swansea,A
+Tottenham,Fulham,H
+West Ham,Crystal Palace,A
+Everton,Man United,H
+Hull,Arsenal,A
+Norwich,Liverpool,A
+Man City,West Brom,H
+Fulham,Hull,D
+Man United,Norwich,H
+Southampton,Everton,H
+Stoke,Tottenham,A
+Swansea,Aston Villa,H
+West Brom,West Ham,H
+Crystal Palace,Man City,A
+Liverpool,Chelsea,A
+Sunderland,Cardiff,H
+Arsenal,Newcastle,H
+Aston Villa,Hull,H
+Everton,Man City,A
+Man United,Sunderland,A
+Newcastle,Cardiff,H
+Stoke,Fulham,H
+Swansea,Southampton,A
+West Ham,Tottenham,H
+Arsenal,West Brom,H
+Chelsea,Norwich,D
+Crystal Palace,Liverpool,D
+Man United,Hull,H
+Man City,Aston Villa,H
+Sunderland,West Brom,H
+Cardiff,Chelsea,A
+Fulham,Crystal Palace,D
+Hull,Everton,A
+Liverpool,Newcastle,H
+Man City,West Ham,H
+Norwich,Arsenal,A
+Southampton,Man United,D
+Sunderland,Swansea,A
+Tottenham,Aston Villa,H
+West Brom,Stoke,A
+Arsenal,Crystal Palace,H
+Leicester,Everton,D
+Man United,Swansea,A
+QPR,Hull,A
+Stoke,Aston Villa,A
+West Brom,Sunderland,D
+West Ham,Tottenham,A
+Liverpool,Southampton,H
+Newcastle,Man City,A
+Burnley,Chelsea,A
+Aston Villa,Newcastle,D
+Chelsea,Leicester,H
+Crystal Palace,West Ham,A
+Everton,Arsenal,D
+Southampton,West Brom,D
+Swansea,Burnley,H
+Hull,Stoke,D
+Sunderland,Man United,D
+Tottenham,QPR,H
+Man City,Liverpool,H
+Burnley,Man United,D
+Everton,Chelsea,A
+Man City,Stoke,A
+Newcastle,Crystal Palace,D
+QPR,Sunderland,H
+Swansea,West Brom,H
+West Ham,Southampton,A
+Aston Villa,Hull,H
+Leicester,Arsenal,D
+Tottenham,Liverpool,A
+Arsenal,Man City,D
+Chelsea,Swansea,H
+Crystal Palace,Burnley,D
+Liverpool,Aston Villa,A
+Southampton,Newcastle,H
+Stoke,Leicester,A
+Sunderland,Tottenham,D
+West Brom,Everton,A
+Man United,QPR,H
+Hull,West Ham,D
+Aston Villa,Arsenal,A
+Burnley,Sunderland,D
+Newcastle,Hull,D
+QPR,Stoke,D
+Swansea,Southampton,A
+West Ham,Liverpool,H
+Everton,Crystal Palace,A
+Leicester,Man United,H
+Man City,Chelsea,D
+Tottenham,West Brom,A
+Arsenal,Tottenham,D
+Chelsea,Aston Villa,H
+Crystal Palace,Leicester,H
+Hull,Man City,A
+Liverpool,Everton,D
+Man United,West Ham,H
+Southampton,QPR,H
+Sunderland,Swansea,D
+West Brom,Burnley,H
+Stoke,Newcastle,H
+Aston Villa,Man City,A
+Hull,Crystal Palace,H
+Leicester,Burnley,D
+Liverpool,West Brom,H
+Sunderland,Stoke,H
+Swansea,Newcastle,D
+Chelsea,Arsenal,H
+Man United,Everton,H
+Tottenham,Southampton,H
+West Ham,QPR,H
+Arsenal,Hull,D
+Burnley,West Ham,A
+Crystal Palace,Chelsea,A
+Everton,Aston Villa,H
+Man City,Tottenham,H
+Newcastle,Leicester,H
+Southampton,Sunderland,H
+QPR,Liverpool,A
+Stoke,Swansea,H
+West Brom,Man United,D
+Liverpool,Hull,D
+Southampton,Stoke,H
+Sunderland,Arsenal,A
+Swansea,Leicester,H
+West Brom,Crystal Palace,D
+West Ham,Man City,H
+Burnley,Everton,A
+Man United,Chelsea,D
+Tottenham,Newcastle,A
+QPR,Aston Villa,H
+Arsenal,Burnley,H
+Chelsea,QPR,H
+Everton,Swansea,D
+Hull,Southampton,A
+Leicester,West Brom,A
+Newcastle,Liverpool,H
+Stoke,West Ham,D
+Aston Villa,Tottenham,A
+Man City,Man United,H
+Crystal Palace,Sunderland,A
+Burnley,Hull,H
+Liverpool,Chelsea,A
+Man United,Crystal Palace,H
+QPR,Man City,D
+Southampton,Leicester,H
+West Ham,Aston Villa,D
+Sunderland,Everton,D
+Swansea,Arsenal,H
+Tottenham,Stoke,A
+West Brom,Newcastle,A
+Arsenal,Man United,A
+Chelsea,West Brom,H
+Everton,West Ham,H
+Leicester,Sunderland,D
+Man City,Swansea,H
+Newcastle,QPR,H
+Stoke,Burnley,A
+Crystal Palace,Liverpool,H
+Hull,Tottenham,A
+Aston Villa,Southampton,D
+Burnley,Aston Villa,D
+Liverpool,Stoke,H
+Man United,Hull,H
+QPR,Leicester,H
+Sunderland,Chelsea,D
+Swansea,Crystal Palace,D
+West Brom,Arsenal,A
+West Ham,Newcastle,H
+Southampton,Man City,A
+Tottenham,Everton,H
+Burnley,Newcastle,D
+Crystal Palace,Aston Villa,A
+Leicester,Liverpool,A
+Man United,Stoke,H
+Swansea,QPR,H
+West Brom,West Ham,A
+Arsenal,Southampton,H
+Chelsea,Tottenham,H
+Everton,Hull,D
+Sunderland,Man City,A
+Hull,West Brom,D
+Liverpool,Sunderland,D
+Man City,Everton,H
+Newcastle,Chelsea,H
+QPR,Burnley,H
+Stoke,Arsenal,H
+Tottenham,Crystal Palace,D
+Aston Villa,Leicester,H
+West Ham,Swansea,H
+Southampton,Man United,A
+Arsenal,Newcastle,H
+Burnley,Southampton,H
+Chelsea,Hull,H
+Crystal Palace,Stoke,D
+Leicester,Man City,A
+Sunderland,West Ham,D
+West Brom,Aston Villa,H
+Man United,Liverpool,H
+Swansea,Tottenham,A
+Everton,QPR,H
+Aston Villa,Man United,D
+Hull,Swansea,A
+Man City,Crystal Palace,H
+QPR,West Brom,H
+Southampton,Everton,H
+Tottenham,Burnley,H
+West Ham,Leicester,H
+Liverpool,Arsenal,D
+Newcastle,Sunderland,A
+Stoke,Chelsea,A
+Arsenal,QPR,H
+Burnley,Liverpool,A
+Chelsea,West Ham,H
+Crystal Palace,Southampton,A
+Everton,Stoke,A
+Leicester,Tottenham,A
+Man United,Newcastle,H
+Sunderland,Hull,A
+Swansea,Aston Villa,H
+West Brom,Man City,A
+Aston Villa,Sunderland,D
+Hull,Leicester,A
+Man City,Burnley,D
+Newcastle,Everton,H
+QPR,Crystal Palace,D
+Southampton,Chelsea,D
+Stoke,West Brom,H
+Tottenham,Man United,D
+West Ham,Arsenal,A
+Liverpool,Swansea,H
+Aston Villa,Crystal Palace,D
+Hull,Everton,H
+Liverpool,Leicester,D
+Man City,Sunderland,H
+Newcastle,Burnley,D
+QPR,Swansea,D
+Southampton,Arsenal,H
+Stoke,Man United,D
+Tottenham,Chelsea,H
+West Ham,West Brom,D
+Burnley,QPR,H
+Chelsea,Newcastle,H
+Crystal Palace,Tottenham,H
+Everton,Man City,D
+Leicester,Aston Villa,H
+Sunderland,Liverpool,A
+Swansea,West Ham,D
+West Brom,Hull,H
+Arsenal,Stoke,H
+Man United,Southampton,A
+Aston Villa,Liverpool,A
+Burnley,Crystal Palace,A
+Leicester,Stoke,A
+Newcastle,Southampton,A
+QPR,Man United,A
+Swansea,Chelsea,A
+Tottenham,Sunderland,H
+Man City,Arsenal,A
+West Ham,Hull,H
+Everton,West Brom,D
+Chelsea,Man City,D
+Crystal Palace,Everton,A
+Hull,Newcastle,A
+Liverpool,West Ham,H
+Man United,Leicester,H
+Stoke,QPR,H
+Sunderland,Burnley,H
+West Brom,Tottenham,A
+Arsenal,Aston Villa,H
+Southampton,Swansea,A
+Aston Villa,Chelsea,A
+Everton,Liverpool,D
+Leicester,Crystal Palace,A
+Man City,Hull,D
+QPR,Southampton,A
+Swansea,Sunderland,D
+Tottenham,Arsenal,H
+Burnley,West Brom,D
+Newcastle,Stoke,D
+West Ham,Man United,D
+Arsenal,Leicester,H
+Hull,Aston Villa,H
+Liverpool,Tottenham,H
+Sunderland,QPR,A
+Chelsea,Everton,H
+Crystal Palace,Newcastle,D
+Man United,Burnley,H
+Southampton,West Ham,D
+Stoke,Man City,A
+West Brom,Swansea,H
+Aston Villa,Stoke,A
+Chelsea,Burnley,D
+Crystal Palace,Arsenal,A
+Hull,QPR,H
+Man City,Newcastle,H
+Sunderland,West Brom,D
+Swansea,Man United,H
+Everton,Leicester,D
+Southampton,Liverpool,A
+Tottenham,West Ham,D
+Burnley,Swansea,A
+Man United,Sunderland,H
+Newcastle,Aston Villa,H
+Stoke,Hull,H
+West Brom,Southampton,H
+West Ham,Crystal Palace,A
+Arsenal,Everton,H
+Liverpool,Man City,H
+Aston Villa,West Brom,H
+Hull,Sunderland,D
+Southampton,Crystal Palace,H
+Liverpool,Burnley,H
+Man City,Leicester,H
+Newcastle,Man United,A
+QPR,Arsenal,A
+Stoke,Everton,H
+Tottenham,Swansea,H
+West Ham,Chelsea,A
+QPR,Tottenham,A
+Arsenal,West Ham,H
+Burnley,Man City,H
+Crystal Palace,QPR,H
+Leicester,Hull,D
+Sunderland,Aston Villa,A
+West Brom,Stoke,H
+Chelsea,Southampton,D
+Everton,Newcastle,H
+Man United,Tottenham,H
+Swansea,Liverpool,A
+Aston Villa,Swansea,A
+Man City,West Brom,H
+Newcastle,Arsenal,A
+Southampton,Burnley,H
+Stoke,Crystal Palace,A
+Tottenham,Leicester,H
+West Ham,Sunderland,H
+Hull,Chelsea,A
+Liverpool,Man United,A
+QPR,Everton,A
+Arsenal,Liverpool,H
+Chelsea,Stoke,H
+Everton,Southampton,H
+Leicester,West Ham,H
+Man United,Aston Villa,H
+Swansea,Hull,H
+West Brom,QPR,A
+Burnley,Tottenham,D
+Sunderland,Newcastle,H
+Crystal Palace,Man City,H
+Aston Villa,QPR,D
+Burnley,Arsenal,A
+Southampton,Hull,H
+Sunderland,Crystal Palace,A
+Swansea,Everton,D
+Tottenham,Aston Villa,A
+West Brom,Leicester,A
+West Ham,Stoke,D
+Man United,Man City,H
+QPR,Chelsea,A
+Liverpool,Newcastle,H
+Chelsea,Man United,H
+Crystal Palace,West Brom,A
+Everton,Burnley,H
+Leicester,Swansea,H
+Stoke,Southampton,H
+Man City,West Ham,H
+Newcastle,Tottenham,A
+Burnley,Leicester,A
+Crystal Palace,Hull,A
+Man City,Aston Villa,H
+Newcastle,Swansea,A
+QPR,West Ham,D
+Southampton,Tottenham,D
+Stoke,Sunderland,D
+West Brom,Liverpool,D
+Arsenal,Chelsea,D
+Everton,Man United,H
+Hull,Liverpool,H
+Leicester,Chelsea,A
+Aston Villa,Everton,H
+Leicester,Newcastle,H
+Liverpool,QPR,H
+Man United,West Brom,A
+Sunderland,Southampton,H
+Swansea,Stoke,H
+West Ham,Burnley,H
+Chelsea,Crystal Palace,H
+Tottenham,Man City,A
+Hull,Arsenal,A
+Aston Villa,West Ham,H
+Crystal Palace,Man United,A
+Everton,Sunderland,A
+Hull,Burnley,A
+Leicester,Southampton,H
+Newcastle,West Brom,D
+Stoke,Tottenham,H
+Chelsea,Liverpool,D
+Man City,QPR,H
+Arsenal,Swansea,A
+Burnley,Stoke,D
+Liverpool,Crystal Palace,A
+QPR,Newcastle,H
+Southampton,Aston Villa,H
+Sunderland,Leicester,D
+Tottenham,Hull,H
+West Ham,Everton,A
+Man United,Arsenal,D
+Swansea,Man City,A
+West Brom,Chelsea,H
+Arsenal,Sunderland,D
+Arsenal,West Brom,H
+Aston Villa,Burnley,A
+Chelsea,Sunderland,H
+Crystal Palace,Swansea,H
+Everton,Tottenham,A
+Hull,Man United,D
+Leicester,QPR,H
+Man City,Southampton,H
+Newcastle,West Ham,H
+Stoke,Liverpool,H
+Bournemouth,Aston Villa,A
+Chelsea,Swansea,D
+Everton,Watford,D
+Leicester,Sunderland,H
+Man United,Tottenham,H
+Norwich,Crystal Palace,A
+Arsenal,West Ham,A
+Newcastle,Southampton,D
+Stoke,Liverpool,A
+West Brom,Man City,A
+Aston Villa,Man United,A
+Southampton,Everton,A
+Sunderland,Norwich,A
+Swansea,Newcastle,H
+Tottenham,Stoke,D
+Watford,West Brom,D
+West Ham,Leicester,A
+Crystal Palace,Arsenal,A
+Man City,Chelsea,H
+Liverpool,Bournemouth,H
+Crystal Palace,Aston Villa,H
+Leicester,Tottenham,D
+Man United,Newcastle,D
+Norwich,Stoke,D
+Sunderland,Swansea,D
+West Ham,Bournemouth,A
+Everton,Man City,A
+Watford,Southampton,D
+West Brom,Chelsea,A
+Arsenal,Liverpool,D
+Aston Villa,Sunderland,D
+Bournemouth,Leicester,D
+Chelsea,Crystal Palace,A
+Liverpool,West Ham,A
+Man City,Watford,H
+Newcastle,Arsenal,A
+Stoke,West Brom,A
+Tottenham,Everton,D
+Southampton,Norwich,H
+Swansea,Man United,H
+Arsenal,Stoke,H
+Crystal Palace,Man City,A
+Everton,Chelsea,H
+Man United,Liverpool,H
+Norwich,Bournemouth,H
+Watford,Swansea,H
+West Brom,Southampton,D
+Leicester,Aston Villa,H
+Sunderland,Tottenham,A
+West Ham,Newcastle,H
+Aston Villa,West Brom,A
+Bournemouth,Sunderland,H
+Chelsea,Arsenal,H
+Man City,West Ham,A
+Newcastle,Watford,A
+Stoke,Leicester,D
+Swansea,Everton,D
+Liverpool,Norwich,D
+Southampton,Man United,A
+Tottenham,Crystal Palace,H
+Leicester,Arsenal,A
+Liverpool,Aston Villa,H
+Man United,Sunderland,H
+Newcastle,Chelsea,D
+Southampton,Swansea,H
+Stoke,Bournemouth,H
+Tottenham,Man City,H
+West Ham,Norwich,D
+Watford,Crystal Palace,A
+West Brom,Everton,A
+Aston Villa,Stoke,A
+Bournemouth,Watford,D
+Chelsea,Southampton,A
+Crystal Palace,West Brom,H
+Man City,Newcastle,H
+Norwich,Leicester,A
+Sunderland,West Ham,D
+Arsenal,Man United,H
+Everton,Liverpool,D
+Swansea,Tottenham,D
+Chelsea,Aston Villa,H
+Crystal Palace,West Ham,A
+Everton,Man United,A
+Man City,Bournemouth,H
+Southampton,Leicester,D
+Tottenham,Liverpool,D
+Watford,Arsenal,A
+West Brom,Sunderland,H
+Newcastle,Norwich,H
+Swansea,Stoke,A
+Arsenal,Everton,H
+Aston Villa,Swansea,A
+Leicester,Crystal Palace,H
+Norwich,West Brom,A
+Stoke,Watford,A
+West Ham,Chelsea,H
+Bournemouth,Tottenham,A
+Liverpool,Southampton,D
+Man United,Man City,D
+Sunderland,Newcastle,H
+Chelsea,Liverpool,A
+Crystal Palace,Man United,D
+Man City,Norwich,H
+Newcastle,Stoke,D
+Swansea,Arsenal,A
+Watford,West Ham,H
+West Brom,Leicester,A
+Everton,Sunderland,H
+Southampton,Bournemouth,H
+Tottenham,Aston Villa,H
+Bournemouth,Newcastle,A
+Leicester,Watford,H
+Man United,West Brom,H
+Norwich,Swansea,H
+Stoke,Chelsea,H
+Sunderland,Southampton,A
+West Ham,Everton,D
+Arsenal,Tottenham,D
+Aston Villa,Man City,D
+Liverpool,Crystal Palace,A
+Chelsea,Norwich,H
+Everton,Aston Villa,H
+Man City,Liverpool,A
+Newcastle,Leicester,A
+Southampton,Stoke,A
+Swansea,Bournemouth,D
+Watford,Man United,A
+West Brom,Arsenal,H
+Tottenham,West Ham,H
+Crystal Palace,Sunderland,A
+Aston Villa,Watford,A
+Bournemouth,Everton,D
+Crystal Palace,Newcastle,H
+Leicester,Man United,D
+Man City,Southampton,H
+Sunderland,Stoke,H
+Liverpool,Swansea,H
+Norwich,Arsenal,D
+Tottenham,Chelsea,D
+West Ham,West Brom,D
+Arsenal,Sunderland,H
+Chelsea,Bournemouth,A
+Man United,West Ham,D
+Southampton,Aston Villa,D
+Stoke,Man City,H
+Swansea,Leicester,A
+Watford,Norwich,H
+West Brom,Tottenham,D
+Newcastle,Liverpool,H
+Everton,Crystal Palace,D
+Bournemouth,Man United,H
+Crystal Palace,Southampton,H
+Man City,Swansea,H
+Norwich,Everton,D
+Sunderland,Watford,A
+West Ham,Stoke,D
+Aston Villa,Arsenal,A
+Liverpool,West Brom,D
+Tottenham,Newcastle,A
+Leicester,Chelsea,H
+Chelsea,Sunderland,H
+Everton,Leicester,A
+Man United,Norwich,A
+Newcastle,Aston Villa,D
+Southampton,Tottenham,A
+Stoke,Crystal Palace,A
+West Brom,Bournemouth,A
+Swansea,West Ham,D
+Watford,Liverpool,H
+Arsenal,Man City,H
+Aston Villa,West Ham,D
+Bournemouth,Crystal Palace,D
+Chelsea,Watford,D
+Liverpool,Leicester,H
+Man City,Sunderland,H
+Newcastle,Everton,A
+Southampton,Arsenal,H
+Stoke,Man United,H
+Swansea,West Brom,H
+Tottenham,Norwich,H
+Arsenal,Bournemouth,H
+Crystal Palace,Swansea,D
+Everton,Stoke,A
+Man United,Chelsea,D
+Norwich,Aston Villa,H
+Watford,Tottenham,A
+West Brom,Newcastle,H
+West Ham,Southampton,H
+Leicester,Man City,D
+Sunderland,Liverpool,A
+Arsenal,Newcastle,H
+Leicester,Bournemouth,D
+Man United,Swansea,H
+Norwich,Southampton,H
+Sunderland,Aston Villa,H
+Watford,Man City,A
+West Brom,Stoke,H
+West Ham,Liverpool,H
+Crystal Palace,Chelsea,A
+Everton,Tottenham,D
+Aston Villa,Crystal Palace,H
+Bournemouth,West Ham,A
+Newcastle,Man United,D
+Chelsea,West Brom,D
+Liverpool,Arsenal,D
+Man City,Everton,D
+Southampton,Watford,H
+Stoke,Norwich,H
+Swansea,Sunderland,A
+Tottenham,Leicester,A
+Aston Villa,Leicester,D
+Bournemouth,Norwich,H
+Chelsea,Everton,D
+Man City,Crystal Palace,H
+Newcastle,West Ham,H
+Southampton,West Brom,H
+Tottenham,Sunderland,H
+Liverpool,Man United,A
+Stoke,Arsenal,D
+Swansea,Watford,H
+Crystal Palace,Tottenham,A
+Leicester,Stoke,H
+Man United,Southampton,A
+Norwich,Liverpool,A
+Sunderland,Bournemouth,D
+Watford,Newcastle,H
+West Brom,Aston Villa,D
+West Ham,Man City,D
+Arsenal,Chelsea,A
+Everton,Swansea,A
+Arsenal,Southampton,D
+Crystal Palace,Bournemouth,A
+Leicester,Liverpool,H
+Man United,Stoke,H
+Norwich,Tottenham,A
+Sunderland,Man City,A
+West Brom,Swansea,D
+West Ham,Aston Villa,H
+Everton,Newcastle,H
+Watford,Chelsea,D
+Aston Villa,Norwich,H
+Liverpool,Sunderland,D
+Man City,Leicester,A
+Newcastle,West Brom,H
+Southampton,West Ham,H
+Stoke,Everton,A
+Swansea,Crystal Palace,D
+Tottenham,Watford,H
+Bournemouth,Arsenal,A
+Chelsea,Man United,D
+Bournemouth,Stoke,A
+Chelsea,Newcastle,H
+Crystal Palace,Watford,A
+Everton,West Brom,A
+Norwich,West Ham,D
+Sunderland,Man United,H
+Swansea,Southampton,A
+Arsenal,Leicester,H
+Aston Villa,Liverpool,A
+Man City,Tottenham,A
+Leicester,Norwich,H
+Southampton,Chelsea,A
+Stoke,Aston Villa,H
+Watford,Bournemouth,D
+West Brom,Crystal Palace,H
+West Ham,Sunderland,H
+Tottenham,Swansea,H
+Man United,Arsenal,H
+Aston Villa,Everton,A
+Bournemouth,Southampton,H
+Leicester,West Brom,D
+Norwich,Chelsea,A
+Sunderland,Crystal Palace,D
+Arsenal,Swansea,A
+Liverpool,Man City,H
+Man United,Watford,H
+Stoke,Newcastle,H
+West Ham,Tottenham,H
+Chelsea,Stoke,D
+Everton,West Ham,A
+Man City,Aston Villa,H
+Newcastle,Bournemouth,A
+Southampton,Sunderland,D
+Swansea,Norwich,H
+Tottenham,Arsenal,D
+Watford,Leicester,A
+Crystal Palace,Liverpool,A
+West Brom,Man United,H
+Bournemouth,Swansea,H
+Norwich,Man City,D
+Stoke,Southampton,A
+Aston Villa,Tottenham,A
+Leicester,Newcastle,H
+Chelsea,West Ham,D
+Crystal Palace,Leicester,A
+Everton,Arsenal,A
+Swansea,Aston Villa,H
+Watford,Stoke,A
+West Brom,Norwich,A
+Man City,Man United,A
+Newcastle,Sunderland,D
+Southampton,Liverpool,H
+Tottenham,Bournemouth,H
+Arsenal,Watford,H
+Aston Villa,Chelsea,A
+Bournemouth,Man City,A
+Liverpool,Tottenham,D
+Norwich,Newcastle,H
+Stoke,Swansea,D
+Sunderland,West Brom,D
+West Ham,Crystal Palace,D
+Leicester,Southampton,H
+Man United,Everton,H
+Aston Villa,Bournemouth,A
+Crystal Palace,Norwich,H
+Man City,West Brom,H
+Southampton,Newcastle,H
+Swansea,Chelsea,H
+Watford,Everton,D
+West Ham,Arsenal,D
+Liverpool,Stoke,H
+Sunderland,Leicester,A
+Tottenham,Man United,H
+Crystal Palace,Everton,D
+Chelsea,Man City,A
+Everton,Southampton,D
+Man United,Aston Villa,H
+Newcastle,Swansea,H
+Norwich,Sunderland,A
+West Brom,Watford,A
+Arsenal,Crystal Palace,D
+Bournemouth,Liverpool,A
+Leicester,West Ham,D
+Stoke,Tottenham,A
+Newcastle,Man City,D
+Liverpool,Everton,H
+Man United,Crystal Palace,H
+West Ham,Watford,H
+Arsenal,West Brom,H
+Aston Villa,Southampton,A
+Bournemouth,Chelsea,A
+Liverpool,Newcastle,D
+Man City,Stoke,H
+Leicester,Swansea,H
+Sunderland,Arsenal,D
+Tottenham,West Brom,D
+Arsenal,Norwich,H
+Everton,Bournemouth,H
+Newcastle,Crystal Palace,H
+Stoke,Sunderland,D
+Watford,Aston Villa,H
+West Brom,West Ham,A
+Man United,Leicester,D
+Southampton,Man City,H
+Swansea,Liverpool,H
+Chelsea,Tottenham,D
+Aston Villa,Newcastle,D
+Bournemouth,West Brom,D
+Crystal Palace,Stoke,H
+Leicester,Everton,H
+Norwich,Man United,A
+Sunderland,Chelsea,H
+West Ham,Swansea,A
+Liverpool,Watford,H
+Man City,Arsenal,D
+Tottenham,Southampton,A
+West Ham,Man United,H
+Liverpool,Chelsea,D
+Norwich,Watford,H
+Sunderland,Everton,H
+Arsenal,Aston Villa,H
+Chelsea,Leicester,D
+Everton,Norwich,H
+Newcastle,Tottenham,H
+Southampton,Crystal Palace,H
+Stoke,West Ham,H
+Swansea,Man City,D
+Watford,Sunderland,D
+West Brom,Liverpool,D
+Man United,Bournemouth,H
+Burnley,Swansea,A
+Crystal Palace,West Brom,A
+Everton,Tottenham,D
+Hull,Leicester,H
+Man City,Sunderland,H
+Middlesbrough,Stoke,D
+Southampton,Watford,D
+Arsenal,Liverpool,A
+Bournemouth,Man United,A
+Chelsea,West Ham,H
+Man United,Southampton,H
+Burnley,Liverpool,H
+Leicester,Arsenal,D
+Stoke,Man City,A
+Swansea,Hull,A
+Tottenham,Crystal Palace,H
+Watford,Chelsea,A
+West Brom,Everton,A
+Sunderland,Middlesbrough,A
+West Ham,Bournemouth,H
+Chelsea,Burnley,H
+Crystal Palace,Bournemouth,D
+Everton,Stoke,H
+Hull,Man United,A
+Leicester,Swansea,H
+Southampton,Sunderland,D
+Tottenham,Liverpool,D
+Watford,Arsenal,A
+Man City,West Ham,H
+West Brom,Middlesbrough,D
+Arsenal,Southampton,H
+Bournemouth,West Brom,H
+Burnley,Hull,D
+Liverpool,Leicester,H
+Man United,Man City,A
+Middlesbrough,Crystal Palace,A
+Stoke,Tottenham,A
+West Ham,Watford,A
+Swansea,Chelsea,D
+Sunderland,Everton,A
+Chelsea,Liverpool,A
+Everton,Middlesbrough,H
+Hull,Arsenal,A
+Leicester,Burnley,H
+Man City,Bournemouth,H
+West Brom,West Ham,H
+Crystal Palace,Stoke,H
+Southampton,Swansea,H
+Tottenham,Sunderland,H
+Watford,Man United,H
+Arsenal,Chelsea,H
+Bournemouth,Everton,H
+Liverpool,Hull,H
+Man United,Leicester,H
+Middlesbrough,Tottenham,A
+Stoke,West Brom,D
+Sunderland,Crystal Palace,A
+Swansea,Man City,A
+West Ham,Southampton,A
+Burnley,Watford,H
+Everton,Crystal Palace,D
+Hull,Chelsea,A
+Sunderland,West Brom,D
+Swansea,Liverpool,A
+Watford,Bournemouth,D
+West Ham,Middlesbrough,D
+Burnley,Arsenal,A
+Leicester,Southampton,D
+Man United,Stoke,D
+Tottenham,Man City,H
+Arsenal,Swansea,H
+Bournemouth,Hull,H
+Chelsea,Leicester,H
+Crystal Palace,West Ham,A
+Man City,Everton,D
+Stoke,Sunderland,H
+West Brom,Tottenham,D
+Middlesbrough,Watford,A
+Southampton,Burnley,H
+Liverpool,Man United,D
+Arsenal,Middlesbrough,D
+Bournemouth,Tottenham,D
+Burnley,Everton,H
+Hull,Stoke,A
+Leicester,Crystal Palace,H
+Liverpool,West Brom,H
+Swansea,Watford,D
+West Ham,Sunderland,H
+Chelsea,Man United,H
+Man City,Southampton,D
+Crystal Palace,Liverpool,A
+Man United,Burnley,D
+Middlesbrough,Bournemouth,H
+Sunderland,Arsenal,A
+Tottenham,Leicester,D
+Watford,Hull,H
+West Brom,Man City,A
+Everton,West Ham,H
+Southampton,Chelsea,A
+Stoke,Swansea,H
+Bournemouth,Sunderland,A
+Burnley,Crystal Palace,H
+Chelsea,Everton,H
+Man City,Middlesbrough,D
+West Ham,Stoke,D
+Arsenal,Tottenham,D
+Hull,Southampton,H
+Leicester,West Brom,A
+Liverpool,Watford,H
+Swansea,Man United,A
+Crystal Palace,Man City,A
+Everton,Swansea,D
+Man United,Arsenal,D
+Southampton,Liverpool,D
+Stoke,Bournemouth,A
+Sunderland,Hull,H
+Tottenham,West Ham,H
+Watford,Leicester,H
+Middlesbrough,Chelsea,A
+West Brom,Burnley,H
+Burnley,Man City,A
+Chelsea,Tottenham,H
+Hull,West Brom,D
+Leicester,Middlesbrough,D
+Liverpool,Sunderland,H
+Swansea,Crystal Palace,H
+Arsenal,Bournemouth,H
+Man United,West Ham,D
+Southampton,Everton,H
+Watford,Stoke,A
+Crystal Palace,Southampton,H
+Man City,Chelsea,A
+Stoke,Burnley,H
+Sunderland,Leicester,H
+Tottenham,Swansea,H
+West Brom,Watford,H
+West Ham,Arsenal,A
+Bournemouth,Liverpool,H
+Everton,Man United,D
+Middlesbrough,Hull,H
+Arsenal,Stoke,H
+Burnley,Bournemouth,H
+Hull,Crystal Palace,D
+Leicester,Man City,H
+Swansea,Sunderland,H
+Watford,Everton,H
+Chelsea,West Brom,H
+Liverpool,West Ham,D
+Man United,Tottenham,H
+Southampton,Middlesbrough,H
+Bournemouth,Leicester,H
+Everton,Arsenal,H
+Crystal Palace,Man United,A
+Man City,Watford,H
+Middlesbrough,Liverpool,A
+Stoke,Southampton,D
+Sunderland,Chelsea,A
+Tottenham,Hull,H
+West Brom,Swansea,H
+West Ham,Burnley,H
+Crystal Palace,Chelsea,A
+Middlesbrough,Swansea,H
+Stoke,Leicester,D
+Sunderland,Watford,H
+West Brom,Man United,A
+West Ham,Hull,H
+Bournemouth,Southampton,A
+Man City,Arsenal,H
+Tottenham,Burnley,H
+Everton,Liverpool,A
+Arsenal,West Brom,H
+Burnley,Middlesbrough,H
+Chelsea,Bournemouth,H
+Hull,Man City,A
+Leicester,Everton,A
+Man United,Sunderland,H
+Swansea,West Ham,A
+Watford,Crystal Palace,D
+Liverpool,Stoke,H
+Southampton,Tottenham,A
+Hull,Everton,D
+Burnley,Sunderland,H
+Chelsea,Stoke,H
+Leicester,West Ham,H
+Liverpool,Man City,H
+Man United,Middlesbrough,H
+Southampton,West Brom,A
+Swansea,Bournemouth,A
+Arsenal,Crystal Palace,H
+Watford,Tottenham,A
+Everton,Southampton,H
+Man City,Burnley,H
+Middlesbrough,Leicester,D
+Sunderland,Liverpool,D
+West Brom,Hull,H
+West Ham,Man United,A
+Bournemouth,Arsenal,D
+Crystal Palace,Swansea,A
+Stoke,Watford,H
+Tottenham,Chelsea,H
+Burnley,Southampton,H
+Hull,Bournemouth,H
+Leicester,Chelsea,A
+Sunderland,Stoke,A
+Swansea,Arsenal,A
+Tottenham,West Brom,H
+Watford,Middlesbrough,D
+West Ham,Crystal Palace,H
+Everton,Man City,H
+Man United,Liverpool,D
+Bournemouth,Watford,D
+Crystal Palace,Everton,A
+Liverpool,Swansea,A
+Man City,Tottenham,D
+Middlesbrough,West Ham,A
+Stoke,Man United,D
+West Brom,Sunderland,H
+Arsenal,Burnley,H
+Chelsea,Hull,H
+Southampton,Leicester,H
+Arsenal,Watford,A
+Bournemouth,Crystal Palace,A
+Burnley,Leicester,H
+Liverpool,Chelsea,D
+Middlesbrough,West Brom,D
+Sunderland,Tottenham,D
+Swansea,Southampton,H
+Man United,Hull,D
+Stoke,Everton,D
+West Ham,Man City,A
+Chelsea,Arsenal,H
+Crystal Palace,Sunderland,A
+Everton,Bournemouth,H
+Hull,Liverpool,H
+Southampton,West Ham,A
+Tottenham,Middlesbrough,H
+Watford,Burnley,H
+West Brom,Stoke,H
+Leicester,Man United,A
+Man City,Swansea,H
+Arsenal,Hull,H
+Liverpool,Tottenham,H
+Man United,Watford,H
+Middlesbrough,Everton,D
+Stoke,Crystal Palace,H
+Sunderland,Southampton,A
+West Ham,West Brom,D
+Burnley,Chelsea,D
+Swansea,Leicester,H
+Bournemouth,Man City,A
+Chelsea,Swansea,H
+Crystal Palace,Middlesbrough,H
+Everton,Sunderland,H
+Hull,Burnley,D
+Watford,West Ham,D
+West Brom,Bournemouth,H
+Tottenham,Stoke,H
+Leicester,Liverpool,H
+Leicester,Hull,H
+Liverpool,Arsenal,H
+Man United,Bournemouth,D
+Stoke,Middlesbrough,H
+Swansea,Burnley,H
+Watford,Southampton,A
+West Brom,Crystal Palace,A
+Sunderland,Man City,A
+Tottenham,Everton,H
+West Ham,Chelsea,A
+Man City,Stoke,D
+Bournemouth,West Ham,H
+Everton,West Brom,H
+Hull,Swansea,H
+Liverpool,Burnley,H
+Bournemouth,Swansea,H
+Crystal Palace,Watford,H
+Everton,Hull,H
+Stoke,Chelsea,A
+Sunderland,Burnley,D
+West Brom,Arsenal,H
+West Ham,Leicester,A
+Man City,Liverpool,D
+Middlesbrough,Man United,A
+Tottenham,Southampton,H
+Burnley,Tottenham,A
+Chelsea,Crystal Palace,A
+Hull,West Ham,H
+Leicester,Stoke,H
+Liverpool,Everton,H
+Man United,West Brom,D
+Southampton,Bournemouth,D
+Watford,Sunderland,H
+Arsenal,Man City,D
+Swansea,Middlesbrough,D
+Burnley,Stoke,H
+Leicester,Sunderland,H
+Man United,Everton,D
+Watford,West Brom,H
+Arsenal,West Ham,H
+Chelsea,Man City,H
+Hull,Middlesbrough,H
+Liverpool,Bournemouth,D
+Southampton,Crystal Palace,H
+Swansea,Tottenham,A
+Bournemouth,Chelsea,A
+Man City,Hull,H
+Middlesbrough,Burnley,D
+Stoke,Liverpool,A
+Tottenham,Watford,H
+West Brom,Southampton,A
+West Ham,Swansea,H
+Everton,Leicester,H
+Sunderland,Man United,A
+Crystal Palace,Arsenal,H
+Crystal Palace,Leicester,D
+Everton,Burnley,H
+Southampton,Man City,A
+Stoke,Hull,H
+Sunderland,West Ham,D
+Tottenham,Bournemouth,H
+Watford,Swansea,H
+Man United,Chelsea,H
+West Brom,Liverpool,A
+Middlesbrough,Arsenal,A
+Bournemouth,Middlesbrough,H
+Hull,Watford,H
+Swansea,Stoke,H
+West Ham,Everton,D
+Burnley,Man United,A
+Liverpool,Crystal Palace,A
+Chelsea,Southampton,H
+Arsenal,Leicester,H
+Crystal Palace,Tottenham,A
+Middlesbrough,Sunderland,H
+Man City,Man United,D
+Crystal Palace,Burnley,A
+Southampton,Hull,D
+Stoke,West Ham,D
+Sunderland,Bournemouth,A
+West Brom,Leicester,A
+Everton,Chelsea,A
+Man United,Swansea,D
+Middlesbrough,Man City,D
+Tottenham,Arsenal,H
+Watford,Liverpool,A
+West Ham,Tottenham,H
+Bournemouth,Stoke,D
+Burnley,West Brom,D
+Hull,Sunderland,A
+Leicester,Watford,H
+Man City,Crystal Palace,H
+Swansea,Everton,H
+Arsenal,Man United,H
+Liverpool,Southampton,D
+Chelsea,Middlesbrough,H
+Southampton,Arsenal,A
+Everton,Watford,H
+West Brom,Chelsea,A
+Bournemouth,Burnley,H
+Man City,Leicester,H
+Middlesbrough,Southampton,A
+Stoke,Arsenal,A
+Sunderland,Swansea,A
+Crystal Palace,Hull,H
+Tottenham,Man United,H
+West Ham,Liverpool,A
+Chelsea,Watford,H
+Arsenal,Sunderland,H
+Man City,West Brom,H
+Southampton,Man United,D
+Leicester,Tottenham,A
+Arsenal,Everton,H
+Burnley,West Ham,A
+Chelsea,Sunderland,H
+Hull,Tottenham,A
+Leicester,Bournemouth,D
+Liverpool,Middlesbrough,H
+Man United,Crystal Palace,H
+Southampton,Stoke,A
+Swansea,West Brom,H
+Watford,Man City,A
+Arsenal,Leicester,H
+Brighton,Man City,A
+Chelsea,Burnley,A
+Crystal Palace,Huddersfield,A
+Everton,Stoke,H
+Southampton,Swansea,D
+Watford,Liverpool,D
+West Brom,Bournemouth,H
+Man United,West Ham,H
+Newcastle,Tottenham,A
+Bournemouth,Watford,A
+Burnley,West Brom,A
+Leicester,Brighton,H
+Liverpool,Crystal Palace,H
+Southampton,West Ham,H
+Stoke,Arsenal,H
+Swansea,Man United,A
+Huddersfield,Newcastle,H
+Tottenham,Chelsea,A
+Man City,Everton,D
+Bournemouth,Man City,A
+Crystal Palace,Swansea,A
+Huddersfield,Southampton,D
+Man United,Leicester,H
+Newcastle,West Ham,H
+Watford,Brighton,D
+Chelsea,Everton,H
+Liverpool,Arsenal,H
+Tottenham,Burnley,D
+West Brom,Stoke,D
+Arsenal,Bournemouth,H
+Brighton,West Brom,H
+Everton,Tottenham,A
+Leicester,Chelsea,A
+Man City,Liverpool,H
+Southampton,Watford,A
+Stoke,Man United,D
+Burnley,Crystal Palace,H
+Swansea,Newcastle,A
+West Ham,Huddersfield,H
+Bournemouth,Brighton,H
+Crystal Palace,Southampton,A
+Huddersfield,Leicester,D
+Liverpool,Burnley,D
+Newcastle,Stoke,H
+Tottenham,Swansea,D
+Watford,Man City,A
+West Brom,West Ham,D
+Chelsea,Arsenal,D
+Man United,Everton,H
+Burnley,Huddersfield,D
+Everton,Bournemouth,H
+Leicester,Liverpool,A
+Man City,Crystal Palace,H
+Southampton,Man United,A
+Stoke,Chelsea,A
+Swansea,Watford,A
+West Ham,Tottenham,A
+Brighton,Newcastle,H
+Arsenal,West Brom,H
+Bournemouth,Leicester,D
+Chelsea,Man City,A
+Huddersfield,Tottenham,A
+Man United,Crystal Palace,H
+Stoke,Southampton,H
+West Brom,Watford,D
+West Ham,Swansea,H
+Arsenal,Brighton,H
+Everton,Burnley,A
+Newcastle,Liverpool,D
+Burnley,West Ham,D
+Crystal Palace,Chelsea,H
+Liverpool,Man United,D
+Man City,Stoke,H
+Swansea,Huddersfield,H
+Tottenham,Bournemouth,H
+Watford,Arsenal,H
+Brighton,Everton,D
+Southampton,Newcastle,D
+Leicester,West Brom,D
+West Ham,Brighton,A
+Chelsea,Watford,H
+Huddersfield,Man United,H
+Man City,Burnley,H
+Newcastle,Crystal Palace,H
+Southampton,West Brom,H
+Stoke,Bournemouth,A
+Swansea,Leicester,A
+Everton,Arsenal,A
+Tottenham,Liverpool,H
+Arsenal,Swansea,H
+Bournemouth,Chelsea,A
+Crystal Palace,West Ham,D
+Liverpool,Huddersfield,H
+Man United,Tottenham,H
+Watford,Stoke,A
+West Brom,Man City,A
+Brighton,Southampton,D
+Leicester,Everton,H
+Burnley,Newcastle,H
+Huddersfield,West Brom,H
+Newcastle,Bournemouth,A
+Southampton,Burnley,A
+Stoke,Leicester,D
+Swansea,Brighton,A
+West Ham,Liverpool,A
+Chelsea,Man United,H
+Everton,Watford,H
+Man City,Arsenal,H
+Tottenham,Crystal Palace,H
+Arsenal,Tottenham,H
+Bournemouth,Huddersfield,H
+Burnley,Swansea,H
+Crystal Palace,Everton,D
+Leicester,Man City,A
+Liverpool,Southampton,H
+Man United,Newcastle,H
+West Brom,Chelsea,A
+Watford,West Ham,H
+Brighton,Stoke,D
+West Ham,Leicester,D
+Crystal Palace,Stoke,H
+Liverpool,Chelsea,D
+Man United,Brighton,H
+Newcastle,Watford,A
+Swansea,Bournemouth,D
+Tottenham,West Brom,D
+Burnley,Arsenal,A
+Huddersfield,Man City,A
+Southampton,Everton,H
+Brighton,Crystal Palace,D
+Leicester,Tottenham,H
+Watford,Man United,A
+West Brom,Newcastle,D
+Arsenal,Huddersfield,H
+Bournemouth,Burnley,A
+Chelsea,Swansea,H
+Everton,West Ham,H
+Man City,Southampton,H
+Stoke,Liverpool,A
+Arsenal,Man United,A
+Brighton,Liverpool,A
+Chelsea,Newcastle,H
+Everton,Huddersfield,H
+Leicester,Burnley,H
+Stoke,Swansea,H
+Watford,Tottenham,D
+West Brom,Crystal Palace,D
+Bournemouth,Southampton,D
+Man City,West Ham,H
+Burnley,Watford,H
+Crystal Palace,Bournemouth,D
+Huddersfield,Brighton,H
+Newcastle,Leicester,A
+Swansea,West Brom,H
+Tottenham,Stoke,H
+West Ham,Chelsea,H
+Liverpool,Everton,D
+Man United,Man City,A
+Southampton,Arsenal,D
+Burnley,Stoke,H
+Crystal Palace,Watford,H
+Huddersfield,Chelsea,A
+Liverpool,West Brom,D
+Man United,Bournemouth,H
+Newcastle,Everton,A
+Southampton,Leicester,A
+Swansea,Man City,A
+Tottenham,Brighton,H
+West Ham,Arsenal,D
+Arsenal,Newcastle,H
+Brighton,Burnley,D
+Chelsea,Southampton,H
+Leicester,Crystal Palace,A
+Man City,Tottenham,H
+Stoke,West Ham,A
+Watford,Huddersfield,A
+Bournemouth,Liverpool,A
+West Brom,Man United,A
+Everton,Swansea,H
+Arsenal,Liverpool,D
+Brighton,Watford,H
+Burnley,Tottenham,A
+Everton,Chelsea,D
+Leicester,Man United,D
+Man City,Bournemouth,H
+Southampton,Huddersfield,D
+Stoke,West Brom,H
+Swansea,Crystal Palace,D
+West Ham,Newcastle,A
+Bournemouth,West Ham,D
+Chelsea,Brighton,H
+Huddersfield,Stoke,D
+Liverpool,Swansea,H
+Man United,Burnley,D
+Tottenham,Southampton,H
+Watford,Leicester,H
+West Brom,Everton,D
+Newcastle,Man City,A
+Crystal Palace,Arsenal,A
+Bournemouth,Everton,H
+Chelsea,Stoke,H
+Huddersfield,Burnley,D
+Liverpool,Leicester,H
+Man United,Southampton,D
+Newcastle,Brighton,D
+Watford,Swansea,A
+Crystal Palace,Man City,D
+West Brom,Arsenal,D
+Brighton,Bournemouth,D
+Burnley,Liverpool,A
+Everton,Man United,A
+Leicester,Huddersfield,H
+Stoke,Newcastle,A
+Man City,Watford,H
+Southampton,Crystal Palace,A
+Swansea,Tottenham,A
+West Ham,West Brom,H
+Arsenal,Chelsea,D
+Tottenham,West Ham,D
+Chelsea,Leicester,D
+Crystal Palace,Burnley,H
+Huddersfield,West Ham,A
+Newcastle,Swansea,D
+Tottenham,Everton,H
+Watford,Southampton,D
+West Brom,Brighton,H
+Bournemouth,Arsenal,H
+Liverpool,Man City,H
+Man United,Stoke,H
+Arsenal,Crystal Palace,H
+Brighton,Chelsea,A
+Burnley,Man United,A
+Everton,West Brom,D
+Leicester,Watford,H
+Man City,Newcastle,H
+Stoke,Huddersfield,H
+West Ham,Bournemouth,D
+Southampton,Tottenham,D
+Swansea,Liverpool,H
+Huddersfield,Liverpool,A
+Swansea,Arsenal,H
+West Ham,Crystal Palace,D
+Chelsea,Bournemouth,A
+Everton,Leicester,H
+Man City,West Brom,H
+Newcastle,Burnley,D
+Southampton,Brighton,D
+Stoke,Watford,D
+Tottenham,Man United,H
+Arsenal,Everton,H
+Bournemouth,Stoke,H
+Brighton,West Ham,H
+Burnley,Man City,D
+Leicester,Swansea,D
+Man United,Huddersfield,H
+West Brom,Southampton,A
+Crystal Palace,Newcastle,D
+Liverpool,Tottenham,D
+Watford,Chelsea,H
+Everton,Crystal Palace,H
+Man City,Leicester,H
+Stoke,Brighton,D
+Swansea,Burnley,H
+Tottenham,Arsenal,H
+West Ham,Watford,H
+Huddersfield,Bournemouth,H
+Newcastle,Man United,H
+Southampton,Liverpool,A
+Chelsea,West Brom,H
+Bournemouth,Newcastle,D
+Brighton,Swansea,H
+Burnley,Southampton,D
+Leicester,Stoke,D
+Liverpool,West Ham,H
+Watford,Everton,H
+West Brom,Huddersfield,A
+Crystal Palace,Tottenham,A
+Man United,Chelsea,H
+Arsenal,Man City,A
+Burnley,Everton,H
+Leicester,Bournemouth,D
+Liverpool,Newcastle,H
+Southampton,Stoke,D
+Swansea,West Ham,H
+Tottenham,Huddersfield,H
+Watford,West Brom,H
+Brighton,Arsenal,H
+Man City,Chelsea,H
+Crystal Palace,Man United,A
+Chelsea,Crystal Palace,H
+Everton,Brighton,H
+Huddersfield,Swansea,D
+Man United,Liverpool,H
+Newcastle,Southampton,H
+West Brom,Leicester,A
+West Ham,Burnley,A
+Arsenal,Watford,H
+Bournemouth,Tottenham,A
+Stoke,Man City,A
+Bournemouth,West Brom,H
+Huddersfield,Crystal Palace,A
+Liverpool,Watford,H
+Stoke,Everton,A
+Brighton,Leicester,A
+Crystal Palace,Liverpool,A
+Everton,Man City,A
+Man United,Swansea,H
+Newcastle,Huddersfield,H
+Watford,Bournemouth,D
+West Brom,Burnley,A
+West Ham,Southampton,H
+Arsenal,Stoke,H
+Chelsea,Tottenham,A
+Bournemouth,Crystal Palace,D
+Brighton,Huddersfield,D
+Everton,Liverpool,D
+Leicester,Newcastle,A
+Man City,Man United,A
+Stoke,Tottenham,A
+Watford,Burnley,A
+West Brom,Swansea,D
+Arsenal,Southampton,H
+Chelsea,West Ham,D
+Burnley,Leicester,H
+Crystal Palace,Brighton,H
+Huddersfield,Watford,H
+Liverpool,Bournemouth,H
+Southampton,Chelsea,A
+Swansea,Everton,D
+Tottenham,Man City,A
+Man United,West Brom,A
+Newcastle,Arsenal,H
+West Ham,Stoke,D
+Brighton,Tottenham,D
+Bournemouth,Man United,A
+Burnley,Chelsea,A
+Leicester,Southampton,D
+Watford,Crystal Palace,D
+West Brom,Liverpool,D
+Arsenal,West Ham,H
+Man City,Swansea,H
+Stoke,Burnley,D
+Everton,Newcastle,H
+Burnley,Brighton,D
+Crystal Palace,Leicester,H
+Huddersfield,Everton,A
+Liverpool,Stoke,D
+Newcastle,West Brom,A
+Southampton,Bournemouth,H
+Swansea,Chelsea,A
+Man United,Arsenal,H
+West Ham,Man City,A
+Tottenham,Watford,H
+Brighton,Man United,H
+Bournemouth,Swansea,H
+Everton,Southampton,D
+Leicester,West Ham,A
+Stoke,Crystal Palace,A
+Watford,Newcastle,H
+West Brom,Tottenham,H
+Arsenal,Burnley,H
+Chelsea,Liverpool,H
+Man City,Huddersfield,D
+Swansea,Southampton,A
+Chelsea,Huddersfield,D
+Leicester,Arsenal,H
+Man City,Brighton,H
+Tottenham,Newcastle,H
+West Ham,Man United,D
+Burnley,Bournemouth,A
+Crystal Palace,West Brom,H
+Huddersfield,Arsenal,A
+Liverpool,Brighton,H
+Man United,Watford,H
+Newcastle,Chelsea,H
+Southampton,Man City,A
+Swansea,Stoke,A
+Tottenham,Leicester,H
+West Ham,Everton,H
+Man United,Leicester,H
+Bournemouth,Cardiff,H
+Fulham,Crystal Palace,A
+Huddersfield,Chelsea,A
+Newcastle,Tottenham,A
+Watford,Brighton,H
+Wolves,Everton,D
+Arsenal,Man City,A
+Liverpool,West Ham,H
+Southampton,Burnley,D
+Cardiff,Newcastle,D
+Chelsea,Arsenal,H
+Everton,Southampton,H
+Leicester,Wolves,H
+Tottenham,Fulham,H
+West Ham,Bournemouth,A
+Brighton,Man United,H
+Burnley,Watford,A
+Man City,Huddersfield,H
+Crystal Palace,Liverpool,A
+Arsenal,West Ham,H
+Bournemouth,Everton,D
+Huddersfield,Cardiff,D
+Liverpool,Brighton,H
+Southampton,Leicester,A
+Wolves,Man City,D
+Fulham,Burnley,H
+Newcastle,Chelsea,A
+Watford,Crystal Palace,H
+Man United,Tottenham,A
+Brighton,Fulham,D
+Chelsea,Bournemouth,H
+Crystal Palace,Southampton,A
+Everton,Huddersfield,D
+Leicester,Liverpool,A
+Man City,Newcastle,H
+West Ham,Wolves,A
+Burnley,Man United,A
+Cardiff,Arsenal,A
+Watford,Tottenham,H
+Bournemouth,Leicester,H
+Chelsea,Cardiff,H
+Huddersfield,Crystal Palace,A
+Man City,Fulham,H
+Newcastle,Arsenal,A
+Tottenham,Liverpool,A
+Watford,Man United,A
+Everton,West Ham,A
+Wolves,Burnley,H
+Southampton,Brighton,D
+Brighton,Tottenham,A
+Burnley,Bournemouth,H
+Cardiff,Man City,A
+Crystal Palace,Newcastle,D
+Fulham,Watford,D
+Leicester,Huddersfield,H
+Liverpool,Southampton,H
+Man United,Wolves,D
+Arsenal,Everton,H
+West Ham,Chelsea,D
+Arsenal,Watford,H
+Chelsea,Liverpool,D
+Everton,Fulham,H
+Huddersfield,Tottenham,A
+Man City,Brighton,H
+Newcastle,Leicester,A
+West Ham,Man United,H
+Wolves,Southampton,H
+Cardiff,Burnley,A
+Bournemouth,Crystal Palace,H
+Brighton,West Ham,H
+Burnley,Huddersfield,D
+Crystal Palace,Wolves,A
+Leicester,Everton,A
+Man United,Newcastle,H
+Tottenham,Cardiff,H
+Watford,Bournemouth,A
+Fulham,Arsenal,A
+Liverpool,Man City,D
+Southampton,Chelsea,A
+Bournemouth,Southampton,D
+Cardiff,Fulham,H
+Chelsea,Man United,D
+Huddersfield,Liverpool,A
+Man City,Burnley,H
+Newcastle,Brighton,A
+West Ham,Tottenham,A
+Wolves,Watford,A
+Everton,Crystal Palace,H
+Arsenal,Leicester,H
+Brighton,Wolves,H
+Fulham,Bournemouth,A
+Leicester,West Ham,D
+Liverpool,Cardiff,H
+Southampton,Newcastle,D
+Watford,Huddersfield,H
+Burnley,Chelsea,A
+Crystal Palace,Arsenal,D
+Man United,Everton,H
+Tottenham,Man City,A
+Arsenal,Liverpool,D
+Bournemouth,Man United,A
+Cardiff,Leicester,A
+Everton,Brighton,H
+Newcastle,Watford,H
+West Ham,Burnley,H
+Wolves,Tottenham,A
+Chelsea,Crystal Palace,H
+Man City,Southampton,H
+Huddersfield,Fulham,H
+Cardiff,Brighton,H
+Crystal Palace,Tottenham,A
+Huddersfield,West Ham,D
+Leicester,Burnley,D
+Newcastle,Bournemouth,H
+Southampton,Watford,D
+Arsenal,Wolves,D
+Chelsea,Everton,D
+Liverpool,Fulham,H
+Man City,Man United,H
+Brighton,Leicester,D
+Everton,Cardiff,H
+Fulham,Southampton,H
+Man United,Crystal Palace,D
+Tottenham,Chelsea,H
+Watford,Liverpool,A
+West Ham,Man City,A
+Bournemouth,Arsenal,A
+Wolves,Huddersfield,A
+Burnley,Newcastle,A
+Cardiff,Wolves,H
+Crystal Palace,Burnley,H
+Huddersfield,Brighton,A
+Leicester,Watford,H
+Man City,Bournemouth,H
+Newcastle,West Ham,A
+Southampton,Man United,D
+Arsenal,Tottenham,H
+Chelsea,Fulham,H
+Liverpool,Everton,H
+Bournemouth,Huddersfield,H
+Brighton,Crystal Palace,H
+Watford,Man City,A
+West Ham,Cardiff,H
+Burnley,Liverpool,A
+Everton,Newcastle,D
+Fulham,Leicester,D
+Man United,Arsenal,D
+Tottenham,Southampton,H
+Wolves,Chelsea,H
+Arsenal,Huddersfield,H
+Bournemouth,Liverpool,A
+Burnley,Brighton,H
+Cardiff,Southampton,H
+Chelsea,Man City,H
+Leicester,Tottenham,A
+Man United,Fulham,H
+West Ham,Crystal Palace,H
+Newcastle,Wolves,A
+Everton,Watford,D
+Crystal Palace,Leicester,H
+Fulham,West Ham,A
+Huddersfield,Newcastle,A
+Man City,Everton,H
+Tottenham,Burnley,H
+Watford,Cardiff,H
+Wolves,Bournemouth,H
+Brighton,Chelsea,A
+Liverpool,Man United,H
+Southampton,Arsenal,H
+Wolves,Liverpool,A
+Arsenal,Burnley,H
+Bournemouth,Brighton,H
+Cardiff,Man United,A
+Chelsea,Leicester,A
+Huddersfield,Southampton,A
+Man City,Crystal Palace,A
+Newcastle,Fulham,D
+West Ham,Watford,A
+Everton,Tottenham,A
+Brighton,Arsenal,D
+Burnley,Everton,A
+Crystal Palace,Cardiff,D
+Fulham,Wolves,D
+Leicester,Man City,H
+Liverpool,Newcastle,H
+Man United,Huddersfield,H
+Tottenham,Bournemouth,H
+Watford,Chelsea,A
+Southampton,West Ham,A
+Brighton,Everton,H
+Fulham,Huddersfield,H
+Leicester,Cardiff,A
+Liverpool,Arsenal,H
+Tottenham,Wolves,A
+Watford,Newcastle,D
+Burnley,West Ham,H
+Crystal Palace,Chelsea,A
+Man United,Bournemouth,H
+Southampton,Man City,A
+Arsenal,Fulham,H
+Cardiff,Tottenham,A
+Everton,Leicester,A
+Bournemouth,Watford,D
+Chelsea,Southampton,D
+Huddersfield,Burnley,A
+Newcastle,Man United,A
+West Ham,Brighton,D
+Wolves,Crystal Palace,A
+Man City,Liverpool,H
+Brighton,Liverpool,A
+Burnley,Fulham,H
+Cardiff,Huddersfield,D
+Chelsea,Newcastle,H
+Crystal Palace,Watford,A
+Leicester,Southampton,A
+West Ham,Arsenal,H
+Everton,Bournemouth,H
+Tottenham,Man United,A
+Man City,Wolves,H
+Arsenal,Chelsea,H
+Bournemouth,West Ham,H
+Liverpool,Crystal Palace,H
+Man United,Brighton,H
+Newcastle,Cardiff,H
+Southampton,Everton,H
+Watford,Burnley,D
+Wolves,Leicester,H
+Fulham,Tottenham,A
+Huddersfield,Man City,A
+Arsenal,Cardiff,H
+Fulham,Brighton,H
+Huddersfield,Everton,A
+Man United,Burnley,D
+Newcastle,Man City,H
+Wolves,West Ham,H
+Bournemouth,Chelsea,H
+Liverpool,Leicester,D
+Southampton,Crystal Palace,D
+Tottenham,Watford,H
+Brighton,Watford,D
+Burnley,Southampton,D
+Cardiff,Bournemouth,H
+Chelsea,Huddersfield,H
+Crystal Palace,Fulham,H
+Everton,Wolves,A
+Tottenham,Newcastle,H
+Leicester,Man United,A
+Man City,Arsenal,H
+West Ham,Liverpool,D
+Everton,Man City,A
+Brighton,Burnley,A
+Crystal Palace,West Ham,D
+Fulham,Man United,A
+Huddersfield,Arsenal,A
+Liverpool,Bournemouth,H
+Southampton,Cardiff,A
+Watford,Everton,H
+Man City,Chelsea,H
+Tottenham,Leicester,H
+Wolves,Newcastle,D
+Cardiff,Watford,A
+West Ham,Fulham,H
+Bournemouth,Wolves,D
+Burnley,Tottenham,H
+Leicester,Crystal Palace,A
+Newcastle,Huddersfield,H
+Arsenal,Southampton,H
+Man United,Liverpool,D
+Cardiff,Everton,A
+Huddersfield,Wolves,H
+Leicester,Brighton,H
+Newcastle,Burnley,H
+Arsenal,Bournemouth,H
+Chelsea,Tottenham,H
+Crystal Palace,Man United,A
+Liverpool,Watford,H
+Man City,West Ham,H
+Southampton,Fulham,H
+Bournemouth,Man City,A
+Brighton,Huddersfield,H
+Burnley,Crystal Palace,A
+Man United,Southampton,H
+Tottenham,Arsenal,D
+West Ham,Newcastle,H
+Wolves,Cardiff,H
+Everton,Liverpool,D
+Fulham,Chelsea,A
+Watford,Leicester,H
+Cardiff,West Ham,H
+Crystal Palace,Brighton,A
+Huddersfield,Bournemouth,A
+Leicester,Fulham,H
+Man City,Watford,H
+Newcastle,Everton,H
+Southampton,Tottenham,H
+Arsenal,Man United,H
+Chelsea,Wolves,D
+Liverpool,Burnley,H
+Bournemouth,Newcastle,D
+Burnley,Leicester,A
+West Ham,Huddersfield,H
+Everton,Chelsea,H
+Fulham,Liverpool,A
+Brighton,Southampton,A
+Burnley,Wolves,H
+Crystal Palace,Huddersfield,H
+Fulham,Man City,A
+Leicester,Bournemouth,H
+Man United,Watford,H
+West Ham,Everton,A
+Cardiff,Chelsea,A
+Liverpool,Tottenham,H
+Arsenal,Newcastle,H
+Watford,Fulham,H
+Wolves,Man United,H
+Chelsea,Brighton,H
+Man City,Cardiff,H
+Tottenham,Crystal Palace,H
+Southampton,Liverpool,A
+Bournemouth,Burnley,A
+Huddersfield,Leicester,A
+Newcastle,Crystal Palace,A
+Everton,Arsenal,H
+Chelsea,West Ham,H
+Leicester,Newcastle,A
+Brighton,Bournemouth,A
+Burnley,Cardiff,H
+Fulham,Everton,H
+Man United,West Ham,H
+Southampton,Wolves,H
+Tottenham,Huddersfield,H
+Crystal Palace,Man City,A
+Liverpool,Chelsea,H
+Watford,Arsenal,A
+Brighton,Cardiff,A
+Bournemouth,Fulham,A
+Huddersfield,Watford,A
+Man City,Tottenham,H
+Newcastle,Southampton,H
+West Ham,Leicester,D
+Wolves,Brighton,D
+Arsenal,Crystal Palace,A
+Cardiff,Liverpool,A
+Everton,Man United,H
+Chelsea,Burnley,D
+Tottenham,Brighton,H
+Watford,Southampton,D
+Man United,Man City,A
+Wolves,Arsenal,H
+Liverpool,Huddersfield,H
+Brighton,Newcastle,D
+Crystal Palace,Everton,D
+Fulham,Cardiff,H
+Southampton,Bournemouth,D
+Tottenham,West Ham,A
+Watford,Wolves,A
+Burnley,Man City,A
+Leicester,Arsenal,H
+Man United,Chelsea,D
+Everton,Burnley,H
+Bournemouth,Tottenham,H
+Cardiff,Crystal Palace,A
+Newcastle,Liverpool,A
+West Ham,Southampton,H
+Wolves,Fulham,H
+Arsenal,Brighton,D
+Chelsea,Watford,H
+Huddersfield,Man United,D
+Man City,Leicester,H
+Brighton,Man City,A
+Burnley,Arsenal,A
+Crystal Palace,Bournemouth,H
+Fulham,Newcastle,A
+Leicester,Chelsea,D
+Liverpool,Wolves,H
+Man United,Cardiff,A
+Southampton,Huddersfield,D
+Tottenham,Everton,D
+Watford,West Ham,A
