@@ -47,10 +47,7 @@ awayteam = training_data['AwayTeam']
 HT = torch.tensor(pd.get_dummies(hometeam).values)
 AT = torch.tensor(pd.get_dummies(awayteam).values)
 W = torch.tensor(pd.get_dummies(win).values)
-print(HT)
-
 HAT = torch.transpose(torch.cat((torch.transpose(HT, 0, 1),torch.transpose(AT, 0, 1)),0), 0, 1)
-print(HAT)
 print(HAT.size())
 
 
