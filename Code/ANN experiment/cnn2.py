@@ -7,17 +7,19 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
+from torchsummary import summary
 
-num_epochs = 100
+num_epochs = 2
 
 class NeuralNetworkCalculator(nn.Module):
     def __init__(self):
         super(NeuralNetworkCalculator, self).__init__()
-        self.layer_1 = torch.nn.Linear(19, 14)
-        self.layer_2 = torch.nn.Linear(14, 8)
-        self.layer_3 = torch.nn.Linear(8, 8)
-        self.layer_4 = torch.nn.Linear(8, 8)
-        self.layer_5 = torch.nn.Linear(8, 3)
+        self.layer_1 = torch.nn.Conv1d(1,1,5)
+        self.layer_2 = torch.nn.Conv1d(1,1,5)
+        self.layer_3 = torch.nn.Conv1d(1,1,5,padding = 1)
+        self.layer_4 = torch.nn.Conv1d(1,1,5,padding = 1)
+        self.layer_5 = torch.nn.Conv1d(1,1,5,padding = 1)
+        self.layer_6 = torch.nn.Linear(5,3)
 
     def forward(self, x):
         x = F.relu(self.layer_1(x))
@@ -25,6 +27,7 @@ class NeuralNetworkCalculator(nn.Module):
         x = F.relu(self.layer_3(x))
         x = F.relu(self.layer_4(x))
         x = F.relu(self.layer_5(x))
+        x = F.relu(self.layer_6(x))
         return x
 
 
@@ -39,16 +42,15 @@ training_data_winner=pd.read_csv('epl-training.csv')
 win = training_data_winner['FTR']
 W = torch.tensor(pd.get_dummies(win).values).float()
 FE = torch.tensor(training_data_features.values).float()
-print(FE)
-print(W)
 
 model = NeuralNetworkCalculator()
 
-criterion = nn.SmoothL1Loss()
-optimizer = optim.Adam(model.parameters(), lr = 0.000001)
+criterion = nn.MSELoss()
+optimizer = optim.Adam(model.parameters(), lr = 0.00001)
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 model.to(device)
+summary(model, input_size=(1, 19))
 
 
 training = 3971
@@ -60,8 +62,13 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
     for i in range(0, FE.shape[0]):
         # get the inputs
         inputs, labels = FE[i], W[i]
+        inputs = inputs.unsqueeze(0)
+        inputs = inputs.unsqueeze(0)
+        labels = labels.unsqueeze(0)
+        labels = labels.unsqueeze(0)
 
         outputs = model(inputs)
+        #print(outputs.size())
         loss = criterion(outputs, labels)
 
         # Backward and optimize
@@ -83,6 +90,7 @@ with torch.no_grad():
     correct = 0
     total = 0
     for i in range(training, total_step):
+        inputs, labels = FE[i], W[i]
         inputs, labels = FE[i], W[i]
         outputs = model(inputs)
         value1, index1 = torch.max(outputs,0)
