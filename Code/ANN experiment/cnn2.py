@@ -9,17 +9,17 @@ import torch.optim as optim
 import numpy as np
 from torchsummary import summary
 
-num_epochs = 2
+num_epochs = 20
 
 class NeuralNetworkCalculator(nn.Module):
     def __init__(self):
         super(NeuralNetworkCalculator, self).__init__()
-        self.layer_1 = torch.nn.Conv1d(1,1,5)
-        self.layer_2 = torch.nn.Conv1d(1,1,5)
-        self.layer_3 = torch.nn.Conv1d(1,1,5,padding = 1)
-        self.layer_4 = torch.nn.Conv1d(1,1,5,padding = 1)
-        self.layer_5 = torch.nn.Conv1d(1,1,5,padding = 1)
-        self.layer_6 = torch.nn.Linear(5,3)
+        self.layer_1 = torch.nn.Conv1d(1,1,5,stride = 2)
+        self.layer_2 = torch.nn.Conv1d(1,1,5,stride = 2)
+        self.layer_3 = torch.nn.Conv1d(1,1,5,padding = 2,stride = 1)
+        self.layer_4 = torch.nn.Conv1d(1,1,5,padding = 2,stride = 1)
+        self.layer_5 = torch.nn.Conv1d(1,1,5,padding = 2,stride = 1)
+        self.layer_6 = torch.nn.Linear(2,3)
 
     def forward(self, x):
         x = F.relu(self.layer_1(x))
@@ -46,7 +46,7 @@ FE = torch.tensor(training_data_features.values).float()
 model = NeuralNetworkCalculator()
 
 criterion = nn.MSELoss()
-optimizer = optim.Adam(model.parameters(), lr = 0.00001)
+optimizer = optim.Adam(model.parameters(), lr = 0.0001)
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 model.to(device)
@@ -59,7 +59,7 @@ total_step = 4180
 
 for epoch in range(num_epochs):  # loop over the dataset multiple times
     running_loss = 0.0
-    for i in range(0, FE.shape[0]):
+    for i in range(FE.shape[0]):
         # get the inputs
         inputs, labels = FE[i], W[i]
         inputs = inputs.unsqueeze(0)
@@ -67,22 +67,25 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
         labels = labels.unsqueeze(0)
         labels = labels.unsqueeze(0)
 
+        optimizer.zero_grad()
+        inputs = inputs.to(device)
+        labels = labels.to(device)
         outputs = model(inputs)
+
+
         #print(outputs.size())
         loss = criterion(outputs, labels)
 
         # Backward and optimize
-        optimizer.zero_grad()
         loss.backward()
         optimizer.step()
+
+        running_loss += loss.item()
 
 
         # print statistics
         if (i+1) % 1000 == 0:
             print ('Epoch [{}/{}], Step [{}/{}], Loss: {:.4f}'.format(epoch+1, num_epochs, i+1, total_step, loss.item()))
-            print(inputs)
-            print(outputs)
-            print(labels)
 print('Finished Training')
 print('Testing')
 
@@ -91,7 +94,8 @@ with torch.no_grad():
     total = 0
     for i in range(training, total_step):
         inputs, labels = FE[i], W[i]
-        inputs, labels = FE[i], W[i]
+        inputs = inputs.unsqueeze(0)
+        inputs = inputs.unsqueeze(0)
         outputs = model(inputs)
         value1, index1 = torch.max(outputs,0)
         value2, index2 = torch.max(labels,0)

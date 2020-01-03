@@ -34,7 +34,7 @@ class NeuralNetworkCalculator(nn.Module):
 net = NeuralNetworkCalculator()
 
 criterion = nn.MSELoss()
-optimizer = optim.Adam(net.parameters(), lr = 0.000001)
+optimizer = optim.Adam(net.parameters(), lr = 0.00001)
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 net.to(device)
