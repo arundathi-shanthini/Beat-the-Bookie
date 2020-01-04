@@ -14,12 +14,12 @@ num_epochs = 20
 class NeuralNetworkCalculator(nn.Module):
     def __init__(self):
         super(NeuralNetworkCalculator, self).__init__()
-        self.layer_1 = torch.nn.Conv1d(1,1,5,stride = 2)
-        self.layer_2 = torch.nn.Conv1d(1,1,5,stride = 2)
+        self.layer_1 = torch.nn.Conv1d(1,1,5,stride = 1)
+        self.layer_2 = torch.nn.Conv1d(1,1,5,stride = 1)
         self.layer_3 = torch.nn.Conv1d(1,1,5,padding = 2,stride = 1)
         self.layer_4 = torch.nn.Conv1d(1,1,5,padding = 2,stride = 1)
         self.layer_5 = torch.nn.Conv1d(1,1,5,padding = 2,stride = 1)
-        self.layer_6 = torch.nn.Linear(2,3)
+        self.layer_6 = torch.nn.Linear(11,3)
 
     def forward(self, x):
         x = F.relu(self.layer_1(x))

@@ -7,6 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
+from torchsummary import summary
 
 num_epochs = 100
 
@@ -38,6 +39,7 @@ optimizer = optim.Adam(net.parameters(), lr = 0.00001)
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 net.to(device)
+summary(net, input_size=(1, 72))
 
 training_data=pd.read_csv('epl-training.csv')
 
