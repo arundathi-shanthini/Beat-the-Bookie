@@ -12,6 +12,7 @@
 \usepackage{nicefrac}       % compact symbols for 1/2, etc.
 \usepackage{microtype}      % microtypography
 \usepackage{lipsum}
+\usepackage{float}
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -55,8 +56,8 @@ In each season of the EPL 20 domestic teams compete. For each matching, two game
 	
 		The first thing that was observed was the number of matches played by each of the teams. It was identified that not all the teams played the same number of games from 2008 to 2019. This is most likely due to some teams getting relegated (dropping out of the EPL) and other teams being promoted (joining the EPL). This will result in the consistently strong teams who have remained in the EPL throughout having played the most games while those that have been relegated and promoted having played less games in the dataset. This is clearly visible from Fig. 2.1. The 7 teams with the most matches have played the same number of matches and are likely to have been consistently in the EPL throughout the 2008-2019 time period.  
 		
-		\begin{figure}[h]
-			\renewcommand\thefigure{2.1}
+		\begin{figure}[H]
+%			\renewcommand\thefigure{2.1}
 			\centering
 			
 			\includegraphics[scale=0.6]{num_of_matches.png}
@@ -67,15 +68,22 @@ In each season of the EPL 20 domestic teams compete. For each matching, two game
 	
 	\subsection{Histogram Plots of Numerical Columns}
 		
-		From Table 2.1.1 it is evident that most columns are integers. The distribution of each of these columns was investigated by plotting the histogram for each column. In addition to this, each bar in the histogram is split according to the full-time result (FTR). The plots are presented in Fig. 2.2 for each of the 16 integer columns in the provided dataset. It is clearly visible that most of these plots have a clear maximum either side of which the frequency drops. This could possibly indicate that these quantities may be modelled using a Poisson distribution. This is possible as each of the quantities is measured per match and therefore it is measured at a constant rate. This relationship is most clearly visible with datasets that have a large variation (i.e. have a large range). An example is the HS plot. It is clearly visible that this set of data may be modelled with a mean of around 12.
+		From Table 2.1.1 it is evident that most columns are integers. The distribution of each of these columns was investigated by plotting the histogram for each column. In addition to this, each bar in the histogram is split according to the full-time result (FTR). The plots are presented in Fig. 2.2 for each of the 16 integer columns in the provided dataset. It is clearly visible that most of these plots have a clear maximum either side of which the frequency drops. This could possibly indicate that these quantities may be modelled using a Poisson distribution. This is possible as each of the quantities is measured per match and therefore it is measured at a constant rate. This relationship is most clearly visible with datasets that have a large variation (i.e. have a large range). An example is the HS plot. It is clearly visible that this set of data may be modelled with a mean of around 12.\\
+		\\
+		\textbf{FTHG/FTAG}: The modal number of goals scored in a match by the home team is 1 whereas the modal number of goals scored in a match by the away team is 0. This loosely suggests that a team is likely to perform better at home than away, as expected.\\
+		\textbf{HTHG/ HTAG}: The difference between the half time goals scored by home and away teams is a bit more subtle. The modal number of goals is 0 for both and the trends are similar.\\
+		\textbf{HS/AS}: The modal class for the home shots is 12 while the modal class for the away shots is 10. This suggests a slightly lower performance when a team plays away compared to at home.\\
+		\textbf{HST/AST}: By analysing the plot, the HST graph has a mean of around 4.5 while the AST graph has a mean of around 4. Which once again hints at a better performance at home.\\
+		\textbf{HF/AF}: The distribution of fouls committed by the home and away teams seem to be similarly distributed.\\
+		\textbf{HC/AC}: The distribution of corners is such that corners occur slightly more \\
+		\textbf{HY/AY}: The approximate mean of the away plot is slightly higher than that of the home plot suggesting that teams receive more yellow cards when they play away.\\
+		\textbf{HR/AR}: The occurrence of red cards was very rare, and the maximum number of red cards was 1. The histogram plot also suggests that the team that receives a red card is more likely to lose the game
 		
-		\textbf{TABLE HERE}
-		
-		\begin{figure}[h]
-			\renewcommand\thefigure{2.1}
+		\begin{figure}[H]
+%			\renewcommand\thefigure{2.1}
 			\centering
 			
-			\includegraphics[scale=0.3]{count_plot_all.png}
+			\includegraphics[scale=0.32]{count_plot_all.png}
 			\caption{A count plot of the number of matches played by each of the different teams. It is clearly visible that not all teams played the same number of games.}
 		\end{figure}
 		
@@ -86,6 +94,18 @@ In each season of the EPL 20 domestic teams compete. For each matching, two game
 		There are also 36 unique referees across the dataset. Despite this number being equal to the number of unique teams, this is believed to be a coincidence as no specific rules on the assignment of referees that would result in this was found.\\
 		\\
 		The “Date” column was analysed and found that matches only occurred in months January to May and August to December. This suggests that a season of the EPL runs from August to May. This can be used to split the dataset by season and thereby find variation in team statistics by season.  
+	
+	\subsection{Investigation of variation in data}
+	
+		To investigate the spread of the data, we observe the box-plot for each of the columns containing numerical data. This is shown in fig X.
+		
+		\begin{figure}[H]
+%			\renewcommand\thefigure{2.1}
+			\centering
+			
+			\includegraphics[scale=0.32]{raw_box_plot.png}
+			\caption{A count plot of the number of matches played by each of the different teams. It is clearly visible that not all teams played the same number of games.}
+		\end{figure}
 	
 	\subsection{Correlation between columns of raw match data }
 	
@@ -99,7 +119,16 @@ In each season of the EPL 20 domestic teams compete. For each matching, two game
 		\\
 		It is also clearly visible that the referee column has no correlation with any of the other columns, which is indicative that it is chosen at random and does not influence the performance of either team. This relationship is expected as the job of a referee is to preside of the game from neutral point without being biased to either team.
 		
-		\textbf{IMAGE HERE}
+		\begin{figure}[H]
+%			\renewcommand\thefigure{2.1}
+			\centering
+			
+			\includegraphics[scale=0.4]{raw_corr_heatmap.png}
+			\caption{A count plot of the number of matches played by each of the different teams. It is clearly visible that not all teams played the same number of games.}
+		\end{figure}
+		
+	
+	
 	
 \section{Methodology Overview}
 
@@ -112,128 +141,3 @@ In each season of the EPL 20 domestic teams compete. For each matching, two game
 \section{Conclusion}
 
 \end{document}
-
-
-%% From sample:
-
-%\begin{abstract}
-%\lipsum[1]
-%\end{abstract}
-
-% keywords can be removed
-%\keywords{First keyword \and Second keyword \and More}
-
-%\section{Introduction}
-%\lipsum[2]
-%\lipsum[3]
-%
-%
-%\section{Introduction}
-%\label{sec:headings}
-%
-%\lipsum[4] See Section \ref{sec:headings}.
-%
-%\subsection{Headings: second level}
-%\lipsum[5]
-%\begin{equation}
-%\xi _{ij}(t)=P(x_{t}=i,x_{t+1}=j|y,v,w;\theta)= {\frac {\alpha _{i}(t)a^{w_t}_{ij}\beta _{j}(t+1)b^{v_{t+1}}_{j}(y_{t+1})}{\sum _{i=1}^{N} \sum _{j=1}^{N} \alpha _{i}(t)a^{w_t}_{ij}\beta _{j}(t+1)b^{v_{t+1}}_{j}(y_{t+1})}}
-%\end{equation}
-%
-%\subsubsection{Headings: third level}
-%\lipsum[6]
-%
-%\paragraph{Paragraph}
-%\lipsum[7]
-%
-%\section{Examples of citations, figures, tables, references}
-%\label{sec:others}
-%\lipsum[8] \cite{kour2014real,kour2014fast} and see \cite{hadash2018estimate}.
-%
-%The documentation for \verb+natbib+ may be found at
-%\begin{center}
-%  \url{http://mirrors.ctan.org/macros/latex/contrib/natbib/natnotes.pdf}
-%\end{center}
-%Of note is the command \verb+\citet+, which produces citations
-%appropriate for use in inline text.  For example,
-%\begin{verbatim}
-%   \citet{hasselmo} investigated\dots
-%\end{verbatim}
-%produces
-%\begin{quote}
-%  Hasselmo, et al.\ (1995) investigated\dots
-%\end{quote}
-%
-%\begin{center}
-%  \url{https://www.ctan.org/pkg/booktabs}
-%\end{center}
-%
-%
-%\subsection{Figures}
-%\lipsum[10] 
-%See Figure \ref{fig:fig1}. Here is how you add footnotes. \footnote{Sample of the first footnote.}
-%\lipsum[11] 
-%
-%\begin{figure}
-%  \centering
-%  \fbox{\rule[-.5cm]{4cm}{4cm} \rule[-.5cm]{4cm}{0cm}}
-%  \caption{Sample figure caption.}
-%  \label{fig:fig1}
-%\end{figure}
-%
-%\subsection{Tables}
-%\lipsum[12]
-%See awesome Table~\ref{tab:table}.
-%
-%\begin{table}
-% \caption{Sample table title}
-%  \centering
-%  \begin{tabular}{lll}
-%    \toprule
-%    \multicolumn{2}{c}{Part}                   \\
-%    \cmidrule(r){1-2}
-%    Name     & Description     & Size ($\mu$m) \\
-%    \midrule
-%    Dendrite & Input terminal  & $\sim$100     \\
-%    Axon     & Output terminal & $\sim$10      \\
-%    Soma     & Cell body       & up to $10^6$  \\
-%    \bottomrule
-%  \end{tabular}
-%  \label{tab:table}
-%\end{table}
-%
-%\subsection{Lists}
-%\begin{itemize}
-%\item Lorem ipsum dolor sit amet
-%\item consectetur adipiscing elit. 
-%\item Aliquam dignissim blandit est, in dictum tortor gravida eget. In ac rutrum magna.
-%\end{itemize}
-%
-%
-%\bibliographystyle{unsrt}  
-%\bibliography{references}  %%% Remove comment to use the external .bib file (using bibtex).
-%%% and comment out the ``thebibliography'' section.
-%
-%
-%%% Comment out this section when you \bibliography{references} is enabled.
-%\begin{thebibliography}{1}
-%
-%\bibitem{kour2014real}
-%George Kour and Raid Saabne.
-%\newblock Real-time segmentation of on-line handwritten arabic script.
-%\newblock In {\em Frontiers in Handwriting Recognition (ICFHR), 2014 14th
-%  International Conference on}, pages 417--422. IEEE, 2014.
-%
-%\bibitem{kour2014fast}
-%George Kour and Raid Saabne.
-%\newblock Fast classification of handwritten on-line arabic characters.
-%\newblock In {\em Soft Computing and Pattern Recognition (SoCPaR), 2014 6th
-%  International Conference of}, pages 312--318. IEEE, 2014.
-%
-%\bibitem{hadash2018estimate}
-%Guy Hadash, Einat Kermany, Boaz Carmeli, Ofer Lavi, George Kour, and Alon
-%  Jacovi.
-%\newblock Estimate and replace: A novel approach to integrating deep neural
-%  networks with existing applications.
-%\newblock {\em arXiv preprint arXiv:1804.09028}, 2018.
-%
-%\end{thebibliography}
