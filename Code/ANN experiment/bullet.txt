@@ -1,5 +1,12 @@
--tried implementing deep neural network
--first tried with linear layers where every neuron will feed into every other in the next layers:
+As part of this assignment we have also tried implementing deep neural networks for data analysis. We decisded to use framework named PyTorch.
+Its a relatively new deep learnign framework that was made by facebook to compeete with TensorFlow. This framework allows easily to create neural networks both
+linear and convoluted. Train them, test and save them as a file that can be loaded in the future.
+
+First we have tried just traininga simple linear feed forward network by putting in the binary data of home and away teams, outputting 3 states, HomeWin, AwayWin and a Draw.
+This network was very fast to train itself, however due to sparcity of the data it has failed to learn the relations between the teams.
+Thus we have abondoned this particular architecture.
+The architecture looked like:
+
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -21,7 +28,9 @@ Estimated Total Size (MB): 0.02
 ----------------------------------------------------------------
 
 
--afterwords tried implementing convolutions within the networks and adding more features:
+We have also implemented a deep convolutional network using PyTorch. This allowed the fetures to be interprited together,
+and the ability to find corelations between them. In all of the layers we have used a a kernel of size 5, thus in the first and the seccond layer we have reduced the size of the layers
+each time. We have however then used padding of 1 to keep the size of layers the same. In the end we have just added a linear layer to create the 3 outputs of HomeTeam Win, AwayTeam Win and Draw
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -42,8 +51,6 @@ Params size (MB): 0.00
 Estimated Total Size (MB): 0.00
 ----------------------------------------------------------------
 
-
-- this decreased the number of parameters to learn, but also introduced relations between the parameters due to the convolutions
-- Both architectures have failed to give any good results
--the first one i belive failed to the sparcity of the data and as we have only fead in the teams that played
-- the second model failed, in my opinion due to the fact that there was not enough training data and not enough variety in features.
+This approach has significatly decreased the number of parameters that our model will have to learn, and also it would be able to closer relate some charectirisctics with each other.
+Both architectures however have failed to produce good results, giving us nearly random guesses out the outputs and success rate of roughly 33 percent. We were unable to exactly explain why this was the case
+however we do have a couple of ideas. First being the lack of a large enough data sample for each team. And the other being the sparcity of the data that was fead into the network.
