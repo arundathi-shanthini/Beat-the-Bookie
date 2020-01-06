@@ -14,6 +14,7 @@
 \usepackage{lipsum}
 \usepackage{float}
 \usepackage{amsmath}
+\usepackage{multirow}
 
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
@@ -241,8 +242,113 @@
 	
 	\section{Results}
 	
+	As previously discussed, multiple models were considered during out approach. To pick and choose the best performing model we evaluated the performance of each of the models as mentioned in \S 4. Having carried out the training procedure, the following performance scores were obtained:
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}lllllllll@{}}
+			\toprule
+			\multicolumn{1}{l|}{\multirow{2}{*}{Model}} & \multicolumn{4}{l|}{Before PCA}                                                                               & \multicolumn{4}{l|}{After PCA}                                                                                \\ \cmidrule(l){2-9} 
+			\multicolumn{1}{l|}{}                       & \multicolumn{1}{l|}{Acc} & \multicolumn{1}{l|}{F1} & \multicolumn{1}{l|}{ROC\_AUC} & \multicolumn{1}{l|}{Mean} & \multicolumn{1}{l|}{Acc} & \multicolumn{1}{l|}{F1} & \multicolumn{1}{l|}{ROC\_AUC} & \multicolumn{1}{l|}{Mean} \\ \midrule
+			LR                                          & 0.492178                 & 0.433495                & 0.637173                     & \textbf{0.520949}                  & 0.482496                 & 0.439982                & 0.63767                      & \textbf{0.520049}                  \\
+			SGD                                         & 0.520371                 & 0.375741                & 0.646132                     & \textbf{0.514082}                  & 0.519231                 & 0.381855                & 0.636217                     & \textbf{0.512434}                  \\
+			GNB                                         & 0.496444                 & 0.445201                & 0.651078                     & \textbf{0.530907}                  & 0.509831                 & 0.384703                & 0.637136                     & \textbf{0.510557}                  \\
+			KNN                                         & 0.474514                 & 0.416929                & 0.601184                     & \textbf{0.497542}                  & 0.471661                 & 0.410997                & 0.594389                     & \textbf{0.492349}                  \\
+			SVM                                         & 0.514101                 & 0.387864                & 0.620013                     & \textbf{0.507326}                  & 0.51581                  & 0.391111                & 0.618976                     & \textbf{0.508632}                  \\
+			DTC                                         & 0.491032                 & 0.3695                  & 0.603392                     & \textbf{0.487975}                  & 0.446024                 & 0.289807                & 0.529611                     & \textbf{0.421814}                  \\
+			RFC                                         & 0.525498                 & 0.421603                & 0.650564                     & \textbf{0.532555}                  & 0.522082                 & 0.40612                 & 0.642205                     & \textbf{0.523469}                  \\
+			ETC                                         & 0.506134                 & 0.421658                & 0.641313                     & \textbf{0.523035}                  & 0.506985                 & 0.394644                & 0.628026                     & \textbf{0.509885}                  \\
+			MLP                                         & 0.522078                 & 0.398586                & 0.63955                      & \textbf{0.520071}                  & 0.524926                 & 0.391324                & 0.643869                     & \textbf{0.52004}                   \\
+			XGB                                         & 0.511819                 & 0.432949                & 0.644367                     & \textbf{0.529712}                  & 0.520083                 & 0.422649                & 0.642773                     & \textbf{0.528502}                  \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	To help choose the best model from the pool of trained models, we decided to use the average of the accuracy, f1 score and roc\_auc score. The chosen method of calculating the roc\_auc is one vs rest, meaning that when one class is considered, the remaining classes are of the same class and then the roc\_auc is that of a binary classification problem.\\
+	\\
+	The difference in the mean scores for the different models do not vary much, though it is clear to see that the model with the highest average performance scores is the random forests classifier prior to being subject to dimensionality reduction due to PCA. 
+	
 	\section{Final predictions on Test Set}
 	
+	The final predictions are done on the future match pairings. These are matches that will take place on the 11th January 2020. There are 10 different pairings for which we are to predict outcomes. The csv file containing the date, home team and away team is imported and by utilizing the \textbf{\textit{build\_X}} function, the features for the match are computed. If the best model had been one that was achieved with PCA, the input feature matrix would also be modified accordingly by utilizing PCA. However, in out case the best performing model was prior to dimensionality reduction. This matrix of features is then fed into the chosen best model to make predictions. \\
+	\\
+	An issue that we did encounter was the fact that the prediction pairings had a team that had recently been promoted to the premier league: Sheffield United. This was an issue as no data was present for the team at the point. To overcome this, the data was updated to include data from the current season as well. Even though this is not ideal, as only little match data is available on Sheffield United, it is better than having no data.\\
+	\\
+	The final predictions that we obtained from the model for the match pairings are as follows:
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}llll@{}}
+			\toprule
+			Date      & Home Team        & Away Team   & Result \\ \midrule
+			11-Jan-20 & Bournemouth      & Watford     &        \\
+			11-Jan-20 & Aston Villa      & Man City    &        \\
+			11-Jan-20 & Chelsea          & Burnley     &        \\
+			11-Jan-20 & Crystal Palace   & Arsenal     &        \\
+			11-Jan-20 & Everton          & Brighton    &        \\
+			11-Jan-20 & Leicester        & Southampton &        \\ \cmidrule(r){1-3}
+			11-Jan-20 & Man United       & Norwich     &        \\
+			11-Jan-20 & Sheffield United & West Ham    &        \\
+			11-Jan-20 & Tottenham        & Liverpool   &        \\
+			11-Jan-20 & Wolves           & Newcastle   &        \\ \bottomrule
+		\end{tabular}
+	\end{table}
+
+
 	\section{Conclusion}
+	
+	Overall, the quality of the models was fair. We were able to achieve testing accuracies of consistently around 50\%. The engineered features made logical sense and seemed to positively impact the model performance. It was interesting to see that while some models benefited from dimensionality reduction via PCA, others saw their performance drop. Despite this, the change in performance was marginal and the major reason for utilizing PCA was for decreasing the complexity of the final model, which in the end was not required. In hind-sight, the number of features that we initially started off with was 42. Relative to other models in the machine learning paradigm, this is a low number and dimensionality reduction was not a necessity. \\
+	\\
+	To further improve the performance of the model a few considerations could be made. A factor that greatly influences team performance especially in the EPL is the squad of the team as well as player stats of the squad. This could possibly shine light into characteristics such as player chemistry. In addition to this, by utilizing player statistics, more accurate metrics for defensive and attacking strength can be obtained. This approach was attempted but not pursued greatly due to the time constraint of the assignment.
+	
+	
+	\section*{Appendix}
+	
+	\subsection*{Appendix 1: Columns of provided dataset}
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			Column   & Description                                    & Data Type                                                                \\ \midrule
+			Date     & The date the match was played                  & \begin{tabular}[c]{@{}l@{}}String in Format:\\ “YYYY-MM-DD”\end{tabular} \\
+			HomeTeam & The team playing at home                       & String                                                                   \\
+			AwayTeam & The team playing away                          & String                                                                   \\
+			FTHG     & Goals scored by the home team at full time     & Integer                                                                  \\
+			FTAG     & Goals scored by the away team at full time     & Integer                                                                  \\
+			FTR      & Full-Time result of the match                  & One of “H”, ”A” or D                                                     \\
+			HTHG     & Goals scored by home team at half time         & Integer                                                                  \\
+			HTAG     & Goals scored by away team at half time         & Integer                                                                  \\
+			HTR      & Half-Time result of the match                  & One of “H”, ”A” or D                                                     \\
+			Referee  & The name of the referee for the match          & String                                                                   \\
+			HS       & The number of shots taken by the home team     & Integer                                                                  \\
+			AS       & The number of shots taken by the away team     & Integer                                                                  \\
+			HST      & The number of shots on target by the home team & Integer                                                                  \\
+			AST      & The number of shots on target by the away team & Integer                                                                  \\
+			HF       & The number of fouls committed by the home team & Integer                                                                  \\
+			AF       & The number of fouls committed by the away team & Integer                                                                  \\
+			HC       & The number of corners by the home team         & Integer                                                                  \\
+			AC       & The number of corners by the away team         & Integer                                                                  \\
+			HY       & The number of yellow cards to the home team    & Integer                                                                  \\
+			AY       & The number of yellow cards to the away team    & Integer                                                                  \\
+			HR       & The number of red cards to the home team       & Integer                                                                  \\
+			AR       & The number of red cards to the away team       & Integer                                                                  \\ \bottomrule
+		\end{tabular}
+	\end{table}
+
+	\subsection*{Appendix 2: Dependencies of the final code}
+	
+	\begin{itemize}
+		\item os
+		\item warnings
+		\item requests
+		\item Beautiful Soup 4
+		\item time
+		\item dateutil
+		\item multiprocessing
+		\item numpy
+		\item pandas
+		\item seaborn
+		\item scikit learn
+		\item matplotlib
+	\end{itemize}
 	
 \end{document}
