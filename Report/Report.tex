@@ -48,11 +48,7 @@
 	
 	\section{Data Transformation and Exploration}
 	
-	The raw match data that was provided to us in the form of a csv file was imported and analysed thoroughly to identify any patterns and trends that could be exploited. Furthermore, the provided data will be manipulated to calculate metrics that describe the team’s performance. These metrics will act as features in the design matrix and will eventually be used to train the classifier model. 
-	
-	\subsection{Columns of the Provided Dataset }
-	
-	The provided dataset contained 22 columns. It contained data of all EPL matches from 2008 to 2019. Table 2.1 lists the columns of the provided dataset and a brief explanation as to what each quantity represents.
+	The raw match data that was provided to us in the form of a csv file was imported and analysed thoroughly to identify any patterns and trends that could be exploited. Furthermore, the provided data will be manipulated to calculate metrics that describe the team’s performance. These metrics will act as features in the design matrix and will eventually be used to train the classifier model. The provided dataset contained 22 columns. It contained data of all EPL matches from 2008 to 2019. The table in Appendix 1 lists the columns of the provided dataset and a brief explanation as to what each quantity represents.
 	
 	\subsection{Number of Matches}
 	
@@ -76,8 +72,8 @@
 	\textbf{HTHG/ HTAG}: The difference between the half time goals scored by home and away teams is a bit more subtle. The modal number of goals is 0 for both and the trends are similar.\\
 	\textbf{HS/AS}: The modal class for the home shots is 12 while the modal class for the away shots is 10. This suggests a slightly lower performance when a team plays away compared to at home.\\
 	\textbf{HST/AST}: By analysing the plot, the HST graph has a mean of around 4.5 while the AST graph has a mean of around 4. Which once again hints at a better performance at home.\\
-	\textbf{HF/AF}: The distribution of fouls committed by the home and away teams seem to be similarly distributed.\\
-	\textbf{HC/AC}: The distribution of corners is such that corners occur slightly more \\
+	\textbf{HF/AF}: The plots suggests that teams commit slightly more fouls at home compared to away. This makes logical sense as in the home stadium, a team is more likely to feel confident.\\
+	\textbf{HC/AC}: The distribution of the corners is very similar for the home and away cases.\\
 	\textbf{HY/AY}: The approximate mean of the away plot is slightly higher than that of the home plot suggesting that teams receive more yellow cards when they play away.\\
 	\textbf{HR/AR}: The occurrence of red cards was very rare, and the maximum number of red cards was 1. The histogram plot also suggests that the team that receives a red card is more likely to lose the game
 	
@@ -106,17 +102,17 @@
 		\centering
 		
 		\includegraphics[scale=0.4]{raw_box_plot.png}
-		\caption{A count plot of the number of matches played by each of the different teams. It is clearly visible that not all teams played the same number of games.}
+		\caption{Box plots by column of the provided dataset. Only numerical values are considered. This plot emphasises the spread of the data as well as the existence of outliers.}
 	\end{figure}
 	
 	Thus, we consider implementing a trim function to trim out some outliers. There is a trade-off for trimming, though trimming reduce bias from outliers, the valuable available training data are lost during the process. In our case, we tried to trim all the data outside 0.2 to 0.8 percentile range, and the result is shown as the figure X.X.
 	
 	\begin{figure}[H]
-		\renewcommand\thefigure{2.3}
+		\renewcommand\thefigure{2.4}
 		\centering
 		
 		\includegraphics[scale=0.4]{trimmed_box_plot.png}
-		\caption{A count plot of the number of matches played by each of the different teams. It is clearly visible that not all teams played the same number of games.}
+		\caption{Similar box plot to the one shown in Fig. 2.3 but the data has been trimmed at the 20th to 80th percentile.}
 	\end{figure}
 	
 	The data distribution looks more concentrated than before. Outliers, mostly outside the 0.8 percentile threshold ones are trimmed away, but when we checked about the loss of data, it was 885 out of 4180 total data, which occupied 20.5\% of our available data.\\
@@ -135,16 +131,13 @@
 	\\
 	It is also clearly visible that the referee column has no correlation with any of the other columns, which is indicative that it is chosen at random and does not influence the performance of either team. This relationship is expected as the job of a referee is to preside of the game from neutral point without being biased to either team.
 	
-	
 	\begin{figure}[H]
 		\renewcommand\thefigure{2.5}
 		\centering
 		
 		\includegraphics[scale=0.35]{raw_corr_heatmap.png}
-		\caption{A count plot of the number of matches played by each of the different teams. It is clearly visible that not all teams played the same number of games.}
+		\caption{A heat-map representing the correlation matrix of the raw dataset.}
 	\end{figure}
-	
-
 	
 	\subsection{Feature Extraction}
 	
@@ -172,15 +165,15 @@
 	
 	The attacking strength, defensive strength, conversion rate and aggressiveness are calculated not only as an average over the whole dataset but also specifically for each season. As previously discussed, the seasons are identified by utilizing the fact that seasons start in August and run until May. By calculating these quantities by season we are able to take into consideration the fact that the performance of teams change with respect to season. \\
 	\\
-	Going from looking at the performance of a team over a season, we now look at the recent performance of teams against individual other teams, which are also known as head-to-head performance, where such team combinations have already played against each other before the match of interest. There are three features of interest to us in these areas: Average goals of the home team against the away team in the past n of such matches, average goals of the away team against the home team in the past n matches, and average points of the home team against the away team in the past n matches (the average points of the away team against the home team in the past n matches is included in the third variable, so is not explicitly included). We implement a function for this. A function has been implemented that takes in each individual match from the training data. In the function, the number of previous matches with the same Home Team and Away Team combination before that match is counted. If there are more or equal number of matches than a given value n, then the average goals for the away team and the average goals for the home tea, as well as the average points for the home team are calculated. If there haven’t been any prior matches with that particular combination, then the overall home and away goals average that was calculated in the beginning is given.  If the number of matches is less than n then the average is simply calculated across the matches that have been identified.
+	Going from looking at the performance of a team over a season, we now look at the recent performance of teams against individual other teams, which are also known as head-to-head performance, where such team combinations have already played against each other before the match of interest. There are three features of interest to us in these areas: Average goals of the home team against the away team in the past n of such matches, average goals of the away team against the home team in the past n matches, and average points of the home team against the away team in the past n matches (the average points of the away team against the home team in the past n matches is included in the third variable, so is not explicitly included). We implement a function for this. A function has been implemented that takes in each individual match from the training data. In the function, the number of previous matches with the same Home Team and Away Team combination before that match is counted. If there are more or equal number of matches than a given value n, then the average goals for the away team and the average goals for the home tea, as well as the average points for the home team are calculated. If there haven’t been any prior matches with that particular combination, then the overall home and away goals average that was calculated in the beginning is given.  If the number of matches is less than n then the average is simply calculated across the matches that have been identified.\\
+	\\
 	Next, we explore extracting features relating to “form”. Form refers to a team’s recent performance I.e. if a team has been winning matches recently, then it is said to have good “form”. If a team has been winning many matches lately, then the chances that it will win further matches is likely. We can also refer to this trend of winning matches lately as a team being on a “streak”. This is something that the model will have to consider. The features we will be introducing are related to the “form” of the home team and the away team, for each match. These are the average points and goals of the home team in the last n matches and the average points and goals of the away team in the past n matches. In the case where the away and home team have not played enough to satisfy n past matches, then the results are calculated in the same way as previously. Different functions are used to obtain the streaks for the home team and the away team separately.\\
 	\\
 	Another feature that was added was the managers of the teams that are competing. A list of managers and their managing periods for each of the teams was obtained. From this data we were able to link each team their manager at the time of each of the matches. This data was used as a categorical feature to reflect the fact that some teams perform better under certain managers. In addition to the manager’s name the manager’s nationality was also used as a feature. \\
 	\\
-	Furthermore, we utilized the fact that the dates of the matches were given, to consider the weather on the date of the match. It was planned to use a historical weather API to obtain the weather on the day of the matches in the dataset and use temperate, humidity and other information relayed from the API as features for the training of the model. Unfortunately, most of the historical weather API’s were not for free access and therefore we were unable to obtain this data. \\
+	Furthermore, we utilized the fact that the dates of the matches were given, to consider the weather on the date of the match. It was planned to use a historical weather API to obtain the weather on the day of the matches in the dataset and use temperate, humidity and other information relayed from the API as features for the training of the model. Unfortunately, most of the historical weather API’s were not for free access and therefore we were unable to obtain this data. Additionally, it was thought that weather may affect both teams equally and therefore not affect the final accuracy of the model.\\
 	\\
-	A feature that we thought would influence the match was the referee of the match. However, it was observed that the referee had little correlation with the team performance. Even if the model was to use the referee as an input feature, this data is only made available on the date of the match and therefore, it won’t be available to make predictions for future matches. 
-	
+	A feature that we thought would influence the match was the referee of the match. However, it was observed that the referee had little correlation with the team performance. Even if the model was to use the referee as an input feature, this data is only made available on the date of the match and therefore, it won’t be available to make predictions for future matches.
 	
 	\section{Methodology Overview}
 	
@@ -205,7 +198,8 @@
 
 	These models were chosen purely due the fact that they can be used for multi-class classification problems. The chosen models' hyper-parameters are tuned using cross-validation techniques and eventually, their performance scores with the optimal hyper-parameters are observed.\\
 	\\
-	Following this, the initial design matrix is reduced in dimensionality by using principal component analysis (PCA). By utilizing PCA, correlated features (i.e. features that vary similarly and are therefore redundant) are eliminated. By doing so, the algorithm also becomes less computationally intense not only to train but also to make predictions. However, using PCA means that the final features will be a linear combination of the initial features. These features may hold little physical meaning as to the real-life performance of the team (I.e. features becomes less readable/understandable).
+	Following this, the initial design matrix is reduced in dimensionality by using principal component analysis (PCA). By utilizing PCA, correlated features (i.e. features that vary similarly and are therefore redundant) are eliminated. By doing so, the algorithm also becomes less computationally intense not only to train but also to make predictions. However, using PCA means that the final features will be a linear combination of the initial features. These features may hold little physical meaning as to the real-life performance of the team (I.e. features becomes less readable/understandable).\\
+	\\
 	Once the design matrix of reduced dimensions is obtained, the performance of the new features compared to the old features is analysed by retraining the chosen models. By comparing the scores of the models, we can choose the best performing model to make predictions on the future match pairings. 
 	\subsection{Abandoned Approaches}
 	One of the ideas that we explored was designing a convolutional neural network with custom layers. This was attempted by utilizing the pyTorch library. Unfortunately, we were not able to train the model to provide meaningful predictions. The outputs of the CNN suggested an equal probability that the game would win in a home win, draw or away win; which is the same as guessing. The attempted architecture of the designed network is given in table X.X.
@@ -285,7 +279,7 @@
 			11-Jan-20 & Chelsea          & Burnley     &        \\
 			11-Jan-20 & Crystal Palace   & Arsenal     &        \\
 			11-Jan-20 & Everton          & Brighton    &        \\
-			11-Jan-20 & Leicester        & Southampton &        \\ \cmidrule(r){1-3}
+			11-Jan-20 & Leicester        & Southampton &        \\
 			11-Jan-20 & Man United       & Norwich     &        \\
 			11-Jan-20 & Sheffield United & West Ham    &        \\
 			11-Jan-20 & Tottenham        & Liverpool   &        \\
