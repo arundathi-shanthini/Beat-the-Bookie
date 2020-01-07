@@ -294,6 +294,7 @@
 	\\
 	To further improve the performance of the model a few considerations could be made. A factor that greatly influences team performance especially in the EPL is the squad of the team as well as player stats of the squad. This could possibly shine light into characteristics such as player chemistry. In addition to this, by utilizing player statistics, more accurate metrics for defensive and attacking strength can be obtained. This approach was attempted but not pursued greatly due to the time constraint of the assignment.
 	
+	\newpage
 	
 	\section*{Appendix}
 	
@@ -344,5 +345,45 @@
 		\item scikit learn
 		\item matplotlib
 	\end{itemize}
+	
+	\subsection{title}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			Column   & Description                                                                                                            &  \\ \midrule
+			Date     & The date the match took place                                                                                          &  \\ \midrule
+			HomeTeam & The team playing at home                                                                                               &  \\
+			AwayTeam & The team playing away                                                                                                  &  \\
+			Season   & The season of the match                                                                                                &  \\
+			HAS*     & \begin{tabular}[c]{@{}l@{}}Home Attacking Strength (If no suffix then average over all years, if\\   suf)\end{tabular} &  \\
+			HDS*     & Home Defensive Strength                                                                                                &  \\
+			HCON*    & Home Conversion Rate                                                                                                   &  \\
+			HY*      & Home average yellow cards                                                                                              &  \\
+			HR*      & Home average red cards                                                                                                 &  \\
+			HAGG*    & Home aggressiveness                                                                                                    &  \\
+			AAS*     & Away Attacking Strength                                                                                                &  \\
+			ADS*     & Away Defensive Strength                                                                                                &  \\
+			ACON*    & Away Conversion Rate                                                                                                   &  \\
+			AY*      & Away average yellow cards                                                                                              &  \\
+			AR*      & Away average red cards                                                                                                 &  \\
+			AAGG*    & Away aggressiveness                                                                                                    &  \\
+			FFPTSH   & Home Team average score for current matching for past n** matches                                                      &  \\
+			FFPTSA   & Away Team average score for current matching for past n** matches                                                      &  \\
+			FFHG     & \begin{tabular}[c]{@{}l@{}}Home Team average goals scored for current matching for past n**\\   matches\end{tabular}   &  \\
+			FFAG     & \begin{tabular}[c]{@{}l@{}}Away Team average goals scored for current matching for past n**\\   matches\end{tabular}   &  \\
+			PSH      & Home Team average score for past n** matches                                                                           &  \\
+			SSH      & Home Team goal streak for the past n** matches                                                                         &  \\
+			CSH      & Home Team conceded streak for past n** matches                                                                         &  \\
+			HM       & Home Team Manager                                                                                                      &  \\
+			AM       & Away Team Manager                                                                                                      &  \\
+			HMN      & Nationality of Home Manager                                                                                            &  \\
+			AMN      & Nationality of Away Manager                                                                                            &  \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\subsection*{Appendix 3: Function Dictionary}
+	
 	
 \end{document}
