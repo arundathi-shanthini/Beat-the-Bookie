@@ -1,11 +1,11 @@
 ,Date,HomeTeam,AwayTeam,FTR
-0,2020-01-11,Bournemouth,Watford,2
-1,2020-01-11,Aston Villa,Man City,0
-2,2020-01-11,Chelsea,Burnley,2
-3,2020-01-11,Crystal Palace,Arsenal,0
-4,2020-01-11,Everton,Brighton,0
-5,2020-01-11,Leicester,Southampton,0
-6,2020-01-11,Man United,Norwich,2
-7,2020-01-11,Sheffield United,West Ham,2
-8,2020-01-11,Tottenham,Liverpool,0
-9,2020-01-11,Wolves,Newcastle,0
+0,2020-01-11,Bournemouth,Watford,H
+1,2020-01-11,Aston Villa,Man City,A
+2,2020-01-11,Chelsea,Burnley,H
+3,2020-01-11,Crystal Palace,Arsenal,A
+4,2020-01-11,Everton,Brighton,A
+5,2020-01-11,Leicester,Southampton,A
+6,2020-01-11,Man United,Norwich,H
+7,2020-01-11,Sheffield United,West Ham,H
+8,2020-01-11,Tottenham,Liverpool,A
+9,2020-01-11,Wolves,Newcastle,A
