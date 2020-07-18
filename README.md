@@ -10,7 +10,7 @@ The model tested against the teams playing EPL matches on 11 January 2020. 8 gam
 
 ## `Results: `
 Out of the 8 matches used to test the model, 5 predictions were accurate. This makes the accuracy __62.5%__. The actual results vs. the predicted results are shown below:
-![alt text](https://github.com/Aru2612/Beat-the-Bookie/blob/master/Report/images/Results.png "Actual vs. Predicted Results")
+![alt text](https://github.com/Aru2612/Beat-the-Bookie/blob/master/Report/images/Results.png "Actual vs. Predicted Results" | width=200)
 
 __`Collaborator names:`__  
 - Arundathi Shaji Shanthini  
